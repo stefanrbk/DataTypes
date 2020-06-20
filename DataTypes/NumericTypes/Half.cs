@@ -802,7 +802,8 @@ namespace System
         /// <param name="value"></param>
         /// <returns></returns>
         public static bool IsFinite(Half value) =>
-            !HalfHelper.IsInfinity(value);
+            !HalfHelper.IsInfinity(value) &&
+            !HalfHelper.IsNaN(value);
 
         /// <summary>
         /// Returns a value indicating whether the specified number evaluates to negative or positive infinity.
