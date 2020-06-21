@@ -1,4 +1,5 @@
 ﻿using NUnit.Framework;
+
 using System.Globalization;
 using System.Linq;
 
@@ -38,20 +39,6 @@ namespace System.Tests
             new CultureInfo("en-GB"),
             new CultureInfo("ja-JP")
         };
-        public static readonly string[] ParseTargets = ToStringTargets
-                                                           .Select(a => a.ToString())
-                                                           .ToArray();
-        public static readonly (string, IFormatProvider)[] ParseWithProviderTargets =
-            ToStringTargets
-                .SelectMany(a => ProviderTargets
-                                     .Select(b => a.ToString(b)))
-                .Zip(ToStringTargets
-                         .SelectMany(_ => ProviderTargets))
-                .ToArray();
-        public static readonly IFormatProvider[] ProviderExpandedTargets = ToStringTargets
-                                                     .SelectMany(_ => ProviderTargets
-                                                                          .AsEnumerable())
-                                                     .ToArray();
         public static readonly (Half, Half)[] CompareToHalfTargets =
         {
             (1, 2),
@@ -329,7 +316,7 @@ namespace System.Tests
 
         [Test]
         public static void parse(
-                               [ValueSource("ParseTargets")] string target)
+                               [ValueSource("parse_targets")] string target)
         {
             var actual = Parse(target);
             var expected = Single.Parse(target);
@@ -354,7 +341,8 @@ namespace System.Tests
 
         [Test, Pairwise]
         public static void parse(
-                               [ValueSource("ParseWithProviderTargets")] (string str, IFormatProvider fp) target)
+                               [ValueSource("parse_with_provider_targets")] 
+                                   (string str, IFormatProvider fp) target)
         {
             var actual = Parse(target.str, target.fp);
             var expected = Single.Parse(target.str, target.fp);
@@ -376,5 +364,16 @@ namespace System.Tests
 
             Assert.That(actual, Is.EqualTo((Half)expected));
         }
+        public static string[] parse_targets() =>
+            ToStringTargets
+                .Select(a => a.ToString())
+                .ToArray();
+        public static (string, IFormatProvider)[] parse_with_provider_targets() =>
+            ToStringTargets
+                .SelectMany(a => ProviderTargets
+                                     .Select(b => a.ToString(b)))
+                .Zip(ToStringTargets
+                         .SelectMany(_ => ProviderTargets))
+                .ToArray();
     }
 }
