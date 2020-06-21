@@ -314,13 +314,9 @@ namespace System
         public bool TryFormat(Span<char> destination,
                               out int charsWritten,
                               ReadOnlySpan<char> format = default,
-                              IFormatProvider provider = default)
-        {
-            var value = ((float)this).TryFormat(destination, out var chars,
+                              IFormatProvider provider = default) =>
+            ((float)this).TryFormat(destination, out charsWritten,
                                                 format, provider);
-            charsWritten = chars;
-            return value;
-        }
 
         #region [ Explicit IConvertible Implementation ]
 
