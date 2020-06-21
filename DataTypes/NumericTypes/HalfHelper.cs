@@ -187,7 +187,8 @@
 
         public static bool IsNormal(Half half) =>
             !IsSubnormal(half) &&
-            !IsInfinity(half);
+            !IsInfinity(half) &&
+            !IsNaN(half);
 
         public static bool IsSubnormal(Half half) =>
             (half._value & 0x7c00) == 0;

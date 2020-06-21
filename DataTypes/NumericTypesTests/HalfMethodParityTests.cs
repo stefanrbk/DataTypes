@@ -7,6 +7,16 @@ namespace System.Tests
     [TestFixture(TestOf = typeof(Half))]
     public static class HalfMethodParityTests
     {
+        private static readonly (Half, float)[] _target =
+        {
+            (72, 72),
+            (PositiveInfinity, PositiveInfinity),
+            (NegativeInfinity, NegativeInfinity),
+            (NaN, NaN),
+            (-42, -42),
+            (Epsilon, Single.Epsilon)
+        };
+        
         [Test]
         public static void CompareToValidTest(
                                [Range(0, 3)] int option)
@@ -78,7 +88,7 @@ namespace System.Tests
             var halfTest = $"{test}{(option != 0 && option != 1 ? "Half()" : "")}";
             var singleTest = $"{test}{(option != 0 && option != 1 ? "Single()" : "")}";
             var doubleTest = $"{test}{(option != 0 && option != 1 ? "Double()" : "")}";
-            TestContext.WriteLine($"(Half){halfTest}.Equals({singleTest}) == " +
+            TestContext.WriteLine($"(Half){halfTest}.Equals({singleTest})\n" +
                                   $"(Single){singleTest}.Equals({doubleTest});\n" +
                                   $"Half: {actual}\n" +
                                   $"Single: {expected}");
@@ -101,6 +111,7 @@ namespace System.Tests
             Assert.That(expected, Is.EqualTo(actual));
         }
 
+        // Not a parity test
         [Test]
         public static void GetHashCodeTest(
                                [Random(1)] ushort value)
@@ -116,66 +127,112 @@ namespace System.Tests
             Assert.That(actual, Is.EqualTo(expected));
         }
 
-        [Test]
-        public static void IsFiniteTest(
-                               [Range(0, 3)] int option)
+        [TestCaseSource("_target")]
+        public static void IsFiniteTest((Half half, float single) target)
         {
-            var actual = option switch
-            {
-                0 => IsFinite(72),
-                1 => IsFinite(PositiveInfinity),
-                2 => IsFinite(NegativeInfinity),
-                _ => IsFinite(NaN)
-            };
-            var expected = option switch
-            {
-                0 => Single.IsFinite((Half)72),
-                1 => Single.IsFinite(PositiveInfinity),
-                2 => Single.IsFinite(NegativeInfinity),
-                _ => Single.IsFinite(NaN)
-            };
-            var test = option switch
-            {
-                0 => "72",
-                1 => "+∞",
-                2 => "-∞",
-                _ => "NaN"
-            };
+            var actual = IsFinite(target.half);
+            var expected = Single.IsFinite(target.single);
 
-            TestContext.WriteLine($"Half.IsFinite({test}) == Single.IsFinite({test});\n" +
+            TestContext.WriteLine($"Half.IsFinite({target.half})\n" +
+                                  $"Single.IsFinite({target.single});\n" +
                                   $"Half: {actual}\n" +
                                   $"Single: {expected}");
 
             Assert.That(actual, Is.EqualTo(expected));
         }
 
-        [Test]
-        public static void IsInfinityTest(
-                               [Range(0, 3)] int option)
+        [TestCaseSource("_target")]
+        public static void IsInfinityTest((Half half, float single) target)
         {
-            var actual = option switch
-            {
-                0 => IsInfinity(72),
-                1 => IsInfinity(PositiveInfinity),
-                2 => IsInfinity(NegativeInfinity),
-                _ => IsInfinity(NaN)
-            };
-            var expected = option switch
-            {
-                0 => Single.IsInfinity((Half)72),
-                1 => Single.IsInfinity(PositiveInfinity),
-                2 => Single.IsInfinity(NegativeInfinity),
-                _ => Single.IsInfinity(NaN)
-            };
-            var test = option switch
-            {
-                0 => "72",
-                1 => "+∞",
-                2 => "-∞",
-                _ => "NaN"
-            };
+            var actual = IsInfinity(target.half);
+            var expected = Single.IsInfinity(target.single);
 
-            TestContext.WriteLine($"Half.IsInfinity({test}) == Single.IsInfinity({test});\n" +
+            TestContext.WriteLine($"Half.IsInfinity({target.half})\n" +
+                                  $"Single.IsInfinity({target.single});\n" +
+                                  $"Half: {actual}\n" +
+                                  $"Single: {expected}");
+
+            Assert.That(actual, Is.EqualTo(expected));
+        }
+
+        [TestCaseSource("_target")]
+        public static void IsNaNTest((Half half, float single) target)
+        {
+            var actual = IsNaN(target.half);
+            var expected = Single.IsNaN(target.single);
+
+            TestContext.WriteLine($"Half.IsNaN({target.half})\n" +
+                                  $"Single.IsNaN({target.single});\n" +
+                                  $"Half: {actual}\n" +
+                                  $"Single: {expected}");
+
+            Assert.That(actual, Is.EqualTo(expected));
+        }
+
+        [TestCaseSource("_target")]
+        public static void IsNegativeTest((Half half, float single) target)
+        {
+            var actual = IsNegative(target.half);
+            var expected = Single.IsNegative(target.single);
+
+            TestContext.WriteLine($"Half.IsNegative({target.half})\n" +
+                                  $"Single.IsNegative({target.single});\n" +
+                                  $"Half: {actual}\n" +
+                                  $"Single: {expected}");
+
+            Assert.That(actual, Is.EqualTo(expected));
+        }
+
+        [TestCaseSource("_target")]
+        public static void IsNegativeInfinityTest((Half half, float single) target)
+        {
+            var actual = IsNegativeInfinity(target.half);
+            var expected = Single.IsNegativeInfinity(target.single);
+
+            TestContext.WriteLine($"Half.IsNegativeInfinity({target.half})\n" +
+                                  $"Single.IsNegativeInfinity({target.single});\n" +
+                                  $"Half: {actual}\n" +
+                                  $"Single: {expected}");
+
+            Assert.That(actual, Is.EqualTo(expected));
+        }
+
+        [TestCaseSource("_target")]
+        public static void IsNormalTest((Half half, float single) target)
+        {
+            var actual = IsNormal(target.half);
+            var expected = Single.IsNormal(target.single);
+
+            TestContext.WriteLine($"Half.IsNormal({target.half})\n" +
+                                  $"Single.IsNormal({target.single});\n" +
+                                  $"Half: {actual}\n" +
+                                  $"Single: {expected}");
+
+            Assert.That(actual, Is.EqualTo(expected));
+        }
+
+        [TestCaseSource("_target")]
+        public static void IsPositiveInfinityTest((Half half, float single) target)
+        {
+            var actual = IsPositiveInfinity(target.half);
+            var expected = Single.IsPositiveInfinity(target.single);
+
+            TestContext.WriteLine($"Half.IsPositiveInfinity({target.half})\n" +
+                                  $"Single.IsPositiveInfinity({target.single});\n" +
+                                  $"Half: {actual}\n" +
+                                  $"Single: {expected}");
+
+            Assert.That(actual, Is.EqualTo(expected));
+        }
+
+        [TestCaseSource("_target")]
+        public static void IsSubnormalTest((Half half, float single) target)
+        {
+            var actual = IsSubnormal(target.half);
+            var expected = Single.IsSubnormal(target.single);
+
+            TestContext.WriteLine($"Half.IsSubnormal({target.half})\n" +
+                                  $"Single.IsSubnormal({target.single});\n" +
                                   $"Half: {actual}\n" +
                                   $"Single: {expected}");
 
