@@ -6,7 +6,7 @@
           "files": [
             "**.csproj"
           ],
-          "src": "C:\\Users\\stefa\\OneDrive\\Programming\\GitHub\\DataTypes\\src\\NumericTypes"
+          "src": "C:\\Users\\stefa\\OneDrive\\Programming\\GitHub\\DataTypes\\DataTypes\\NumericTypes"
         }
       ],
       "dest": "api",
