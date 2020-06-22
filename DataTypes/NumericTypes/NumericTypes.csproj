@@ -9,6 +9,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <NoWarn>1701;1702;1305</NoWarn>
+    <DocumentationFile>C:\Users\stefa\OneDrive\Programming\GitHub\DataTypes\DataTypes\NumericTypes\NumericTypes.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,12 +17,17 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="docfx" Version="2.55.0" />
+    <PackageReference Include="docfx.console" Version="2.55.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="3.0.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="PostSharp" Version="6.7.3-preview" />
-    <PackageReference Include="PostSharp.Patterns.Threading" Version="6.7.3-preview" />
+    <PackageReference Include="PostSharp" Version="6.6.9" />
+    <PackageReference Include="PostSharp.Patterns.Threading" Version="6.6.9" />
   </ItemGroup>
 
 </Project>
