@@ -51,6 +51,12 @@ namespace System.Tests
             (666, (Half)555f, 555f),
             (7, (Half)7f, 7f)
         };
+        public static readonly (string, bool)[] TryParseTargets =
+        {
+            ("z", false),
+            ("42", true),
+            ((-0.5f).ToString(), true)
+        };
 
         [Test]
         public static void compare_to(
@@ -251,80 +257,14 @@ namespace System.Tests
         }
 
         [Test]
-        public static void to_string(
-                               [ValueSource("ToStringTargets")] Half target)
-        {
-            var actual = target.ToString();
-            var expected = ((float)target).ToString();
-
-            TestContext.WriteLine($"Half.ToString()\n" +
-                                  $"Single.ToString()\n" +
-                                  $"Half: {actual}\n" +
-                                  $"Single: {expected}");
-
-            Assert.That(actual, Is.EqualTo(expected));
-        }
-
-        [Test]
-        public static void to_string(
-                               [ValueSource("ToStringTargets")] Half target,
-                               [ValueSource("FormatTargets")]   string format)
-        {
-            var actual = target.ToString(format);
-            var expected = ((float)target).ToString(format);
-
-            TestContext.WriteLine($"(Half){target}.ToString({format})\n" +
-                                  $"(Single){target}.ToString({format})\n" +
-                                  $"Half: {actual}\n" +
-                                  $"Single: {expected}");
-
-            Assert.That(actual, Is.EqualTo(expected));
-        }
-
-        [Test]
-        public static void to_string(
-                               [ValueSource("ToStringTargets")] Half target,
-                               [ValueSource("ProviderTargets")] IFormatProvider provider)
-        {
-            var actual = target.ToString(provider);
-            var expected = ((float)target).ToString(provider);
-
-            TestContext.WriteLine($"(Half){target}.ToString({provider})\n" +
-                                  $"(Single){target}.ToString({provider})\n" +
-                                  $"Half: {actual}\n" +
-                                  $"Single: {expected}");
-
-            Assert.That(actual, Is.EqualTo(expected));
-        }
-
-        [Test]
-        public static void to_string(
-                               [ValueSource("ToStringTargets")] Half target,
-                               [ValueSource("FormatTargets")] string format,
-                               [ValueSource("ProviderTargets")] IFormatProvider provider)
-        {
-            var actual = target.ToString(format, provider);
-            var expected = ((float)target).ToString(format, provider);
-
-            TestContext.WriteLine($"(Half){target}.ToString({format}, {provider})\n" +
-                                  $"(Single){target}.ToString({format}, {provider})\n" +
-                                  $"Half: {actual}\n" +
-                                  $"Single: {expected}");
-
-            Assert.That(actual, Is.EqualTo(expected));
-        }
-
-        [Test]
         public static void parse(
                                [ValueSource("parse_targets")] string target)
         {
             var actual = Parse(target);
             var expected = Single.Parse(target);
 
-            TestContext.WriteLine($"Half.Parse({target})\n" +
-                                  $"Single.Parse({target})\n" +
-                                  $"Half: {actual}\n" +
-                                  $"Single: {expected}");
+            TestContext.WriteLine($"Half.Parse(\"{target}\") == {actual}\n" +
+                                  $"Single.Parse(\"{target}\") == {expected}");
 
             Assert.That(actual, Is.EqualTo((Half)expected));
 
@@ -357,12 +297,107 @@ namespace System.Tests
             actual = Parse(target.str, NumberStyles.Number, target.fp);
             expected = Single.Parse(target.str, NumberStyles.Number, target.fp);
 
-            TestContext.WriteLine($"Half.Parse({target.str}, {NumberStyles.Number}, {target.fp})\n" +
-                                  $"Single.Parse({target.str}, {NumberStyles.Number}, {target.fp})\n" +
-                                  $"Half: {actual}\n" +
-                                  $"Single: {expected}");
+            TestContext.WriteLine($"Half.Parse(\"{target.str}\", {NumberStyles.Number}, {target.fp})" +
+                                  $" == {actual}\n" +
+                                  $"Single.Parse(\"{target.str}\", {NumberStyles.Number}, {target.fp})" +
+                                  $" == {expected}");
 
             Assert.That(actual, Is.EqualTo((Half)expected));
+        }
+
+        [Test]
+        public static void to_string(
+                               [ValueSource("ToStringTargets")] Half target)
+        {
+            var actual = target.ToString();
+            var expected = ((float)target).ToString();
+
+            TestContext.WriteLine($"Half.ToString() == \"{actual}\"" +
+                                  $"Single.ToString() == \"{expected}\"");
+
+            Assert.That(actual, Is.EqualTo(expected));
+        }
+
+        [Test]
+        public static void to_string(
+                               [ValueSource("ToStringTargets")] Half target,
+                               [ValueSource("FormatTargets")]   string format)
+        {
+            var actual = target.ToString(format);
+            var expected = ((float)target).ToString(format);
+
+            TestContext.WriteLine($"(Half){target}.ToString({format})" +
+                                  $" == \"{actual}\"\n" +
+                                  $"(Single){target}.ToString({format})" +
+                                  $" == \"{expected}\"");
+
+            Assert.That(actual, Is.EqualTo(expected));
+        }
+
+        [Test]
+        public static void to_string(
+                               [ValueSource("ToStringTargets")] Half target,
+                               [ValueSource("ProviderTargets")] IFormatProvider provider)
+        {
+            var actual = target.ToString(provider);
+            var expected = ((float)target).ToString(provider);
+
+            TestContext.WriteLine($"(Half){target}.ToString({provider})" +
+                                  $" == \"{actual}\"\n" +
+                                  $"(Single){target}.ToString({provider})" +
+                                  $" == \"{expected}\"");
+
+            Assert.That(actual, Is.EqualTo(expected));
+        }
+
+        [Test]
+        public static void to_string(
+                               [ValueSource("ToStringTargets")] Half target,
+                               [ValueSource("FormatTargets")] string format,
+                               [ValueSource("ProviderTargets")] IFormatProvider provider)
+        {
+            var actual = target.ToString(format, provider);
+            var expected = ((float)target).ToString(format, provider);
+
+            TestContext.WriteLine($"(Half){target}.ToString(\"{format}\", {provider})" +
+                                  $" == \"{actual}\"\n" +
+                                  $"(Single){target}.ToString(\"{format}\", {provider})" +
+                                  $" == \"{expected}\"");
+
+            Assert.That(actual, Is.EqualTo(expected));
+        }
+
+        [Test]
+        public static void try_parse(
+                               [ValueSource("TryParseTargets")] (string value, bool result) target)
+        {
+            var actual = TryParse(target.value, out var halfResult);
+            var expected = Single.TryParse(target.value, out var singleResult);
+
+            TestContext.WriteLine($"Half.TryParse(\"{target.value}\", out " +
+                                  $"halfResult) == {actual}\n" +
+                                  $"Single.TryParse(\"{target.value}\", out " +
+                                  $"singleResult) == {expected}\n" +
+                                  $"halfResult == {halfResult}\n" +
+                                  $"singleResult == {singleResult}\n");
+
+            Assert.That(actual, Is.EqualTo(expected));
+            Assert.That(halfResult, Is.EqualTo((Half)singleResult));
+
+            actual = TryParse(target.value, NumberStyles.Number, 
+                              CultureInfo.CurrentCulture, out halfResult);
+            expected = Single.TryParse(target.value, NumberStyles.Number,
+                                       CultureInfo.CurrentCulture, out singleResult);
+
+            TestContext.WriteLine($"Half.TryParse(\"{target.value}\", {NumberStyles.Number}, " +
+                                  $"{CultureInfo.CurrentCulture}, out halfResult) == {actual}\n" +
+                                  $"Single.TryParse(\"{target.value}\", {NumberStyles.Number}, " +
+                                  $"{CultureInfo.CurrentCulture}, out singleResult) == {expected}\n" +
+                                  $"halfResult == {halfResult}\n" +
+                                  $"singleResult == {singleResult}");
+
+            Assert.That(actual, Is.EqualTo(expected));
+            Assert.That(halfResult, Is.EqualTo((Half)singleResult));
         }
         public static string[] parse_targets() =>
             ToStringTargets
