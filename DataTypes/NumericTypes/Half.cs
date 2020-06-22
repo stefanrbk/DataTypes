@@ -61,7 +61,7 @@ namespace System
         /// <exception cref="System.FormatException">value is not in the correct format.</exception>
         /// <exception cref="System.OverflowException">value represents a number less than System.Half.MinValue or greater than System.Half.MaxValue.</exception>
         public static Half Parse(string value) =>
-            (Half)float.Parse(value);
+            (Half)Single.Parse(value);
 
         /// <summary>
         /// Converts the string representation of a number in a specified style to its System.Half equivalent.
@@ -82,7 +82,7 @@ namespace System
         /// <exception cref="System.OverflowException">value represents a number less than System.Half.MinValue or greater than System.Half.MaxValue.</exception>
         public static Half Parse(string value,
                                  NumberStyles style) =>
-            (Half)float.Parse(value, style);
+            (Half)Single.Parse(value, style);
 
         /// <summary>
         /// Converts the string representation of a number to its System.Half equivalent
@@ -96,7 +96,7 @@ namespace System
         /// <exception cref="System.OverflowException">value represents a number less than System.Half.MinValue or greater than System.Half.MaxValue.</exception>
         public static Half Parse(string value,
                                  IFormatProvider provider) =>
-            (Half)float.Parse(value, provider);
+            (Half)Single.Parse(value, provider);
 
         /// <summary>
         /// Converts the string representation of a number to its System.Half equivalent
@@ -120,7 +120,7 @@ namespace System
         public static Half Parse(string value,
                                  NumberStyles style,
                                  IFormatProvider provider) =>
-            (Half)float.Parse(value, style, provider);
+            (Half)Single.Parse(value, style, provider);
 
         /// <summary>
         /// Converts the string representation of a number to its System.Half equivalent.
@@ -327,10 +327,10 @@ namespace System
             Convert.ToByte(this);
 
         char IConvertible.ToChar(IFormatProvider provider) =>
-            throw new InvalidCastException(string.Format("Invalid cast from '{0}' to '{1}'.", "Half", "Char"));
+            throw new InvalidCastException(String.Format("Invalid cast from '{0}' to '{1}'.", "Half", "Char"));
 
         DateTime IConvertible.ToDateTime(IFormatProvider provider) =>
-            throw new InvalidCastException(string.Format("Invalid cast from '{0}' to '{1}'.", "Half", "DateTime"));
+            throw new InvalidCastException(String.Format("Invalid cast from '{0}' to '{1}'.", "Half", "DateTime"));
 
         decimal IConvertible.ToDecimal(IFormatProvider provider) =>
             Convert.ToDecimal(this);
