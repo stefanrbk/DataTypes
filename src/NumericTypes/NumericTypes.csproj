@@ -20,8 +20,8 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="PostSharp" Version="6.7.3-preview" />
-    <PackageReference Include="PostSharp.Patterns.Threading" Version="6.7.3-preview" />
+    <PackageReference Include="PostSharp" Version="6.6.9" />
+    <PackageReference Include="PostSharp.Patterns.Threading" Version="6.6.9" />
   </ItemGroup>
 
 </Project>
