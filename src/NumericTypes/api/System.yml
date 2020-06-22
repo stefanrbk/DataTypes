@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: System
+  commentId: N:System
+  id: System
+  children:
+  - System.Half
+  - System.HalfExtensions
+  - System.MathH
+  langs:
+  - csharp
+  - vb
+  name: System
+  nameWithType: System
+  fullName: System
+  type: Namespace
+  assemblies:
+  - NumericTypes
+references:
+- uid: System.Half
+  commentId: T:System.Half
+  parent: System
+  name: Half
+  nameWithType: Half
+  fullName: System.Half
+- uid: System.HalfExtensions
+  commentId: T:System.HalfExtensions
+  name: HalfExtensions
+  nameWithType: HalfExtensions
+  fullName: System.HalfExtensions
+- uid: System.MathH
+  commentId: T:System.MathH
+  name: MathH
+  nameWithType: MathH
+  fullName: System.MathH
+- uid: System
+  commentId: N:System
+  name: System
+  nameWithType: System
+  fullName: System

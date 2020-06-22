@@ -1,0 +1,1868 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.HalfExtensions
+  commentId: T:System.HalfExtensions
+  id: HalfExtensions
+  parent: System
+  children:
+  - System.HalfExtensions.Average(System.Collections.Generic.IEnumerable{System.Half})
+  - System.HalfExtensions.Average(System.Collections.Generic.IEnumerable{System.Nullable{System.Half}})
+  - System.HalfExtensions.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Half})
+  - System.HalfExtensions.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Half}})
+  - System.HalfExtensions.Max(System.Collections.Generic.IEnumerable{System.Half})
+  - System.HalfExtensions.Max(System.Collections.Generic.IEnumerable{System.Nullable{System.Half}})
+  - System.HalfExtensions.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Half})
+  - System.HalfExtensions.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Half}})
+  - System.HalfExtensions.Min(System.Collections.Generic.IEnumerable{System.Half})
+  - System.HalfExtensions.Min(System.Collections.Generic.IEnumerable{System.Nullable{System.Half}})
+  - System.HalfExtensions.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Half})
+  - System.HalfExtensions.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Half}})
+  - System.HalfExtensions.ReadHalf(System.IO.BinaryReader)
+  - System.HalfExtensions.Sum(System.Collections.Generic.IEnumerable{System.Half})
+  - System.HalfExtensions.Sum(System.Collections.Generic.IEnumerable{System.Nullable{System.Half}})
+  - System.HalfExtensions.Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Half})
+  - System.HalfExtensions.Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Half}})
+  - System.HalfExtensions.Write(System.IO.BinaryWriter,System.Half)
+  - System.HalfExtensions.Write(System.IO.TextWriter,System.Half)
+  - System.HalfExtensions.WriteLine(System.IO.TextWriter,System.Half)
+  langs:
+  - csharp
+  - vb
+  name: HalfExtensions
+  nameWithType: HalfExtensions
+  fullName: System.HalfExtensions
+  type: Class
+  source:
+    remote:
+      path: src/NumericTypes/HalfExtensions.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: HalfExtensions
+    path: HalfExtensions.cs
+    startLine: 9
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static class HalfExtensions
+    content.vb: Public Module HalfExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: System.HalfExtensions.ReadHalf(System.IO.BinaryReader)
+  commentId: M:System.HalfExtensions.ReadHalf(System.IO.BinaryReader)
+  id: ReadHalf(System.IO.BinaryReader)
+  isExtensionMethod: true
+  parent: System.HalfExtensions
+  langs:
+  - csharp
+  - vb
+  name: ReadHalf(BinaryReader)
+  nameWithType: HalfExtensions.ReadHalf(BinaryReader)
+  fullName: System.HalfExtensions.ReadHalf(System.IO.BinaryReader)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/HalfExtensions.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: ReadHalf
+    path: HalfExtensions.cs
+    startLine: 16
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static Half ReadHalf(this BinaryReader reader)
+    parameters:
+    - id: reader
+      type: System.IO.BinaryReader
+      description: ''
+    return:
+      type: System.Half
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ReadHalf(reader As BinaryReader) As Half
+  overload: System.HalfExtensions.ReadHalf*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: System.HalfExtensions.Write(System.IO.BinaryWriter,System.Half)
+  commentId: M:System.HalfExtensions.Write(System.IO.BinaryWriter,System.Half)
+  id: Write(System.IO.BinaryWriter,System.Half)
+  isExtensionMethod: true
+  parent: System.HalfExtensions
+  langs:
+  - csharp
+  - vb
+  name: Write(BinaryWriter, Half)
+  nameWithType: HalfExtensions.Write(BinaryWriter, Half)
+  fullName: System.HalfExtensions.Write(System.IO.BinaryWriter, System.Half)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/HalfExtensions.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: Write
+    path: HalfExtensions.cs
+    startLine: 28
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static void Write(this BinaryWriter writer, Half value)
+    parameters:
+    - id: writer
+      type: System.IO.BinaryWriter
+      description: ''
+    - id: value
+      type: System.Half
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub Write(writer As BinaryWriter, value As Half)
+  overload: System.HalfExtensions.Write*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: System.HalfExtensions.Write(System.IO.TextWriter,System.Half)
+  commentId: M:System.HalfExtensions.Write(System.IO.TextWriter,System.Half)
+  id: Write(System.IO.TextWriter,System.Half)
+  isExtensionMethod: true
+  parent: System.HalfExtensions
+  langs:
+  - csharp
+  - vb
+  name: Write(TextWriter, Half)
+  nameWithType: HalfExtensions.Write(TextWriter, Half)
+  fullName: System.HalfExtensions.Write(System.IO.TextWriter, System.Half)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/HalfExtensions.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: Write
+    path: HalfExtensions.cs
+    startLine: 40
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static void Write(this TextWriter writer, Half value)
+    parameters:
+    - id: writer
+      type: System.IO.TextWriter
+      description: ''
+    - id: value
+      type: System.Half
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub Write(writer As TextWriter, value As Half)
+  overload: System.HalfExtensions.Write*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: System.HalfExtensions.WriteLine(System.IO.TextWriter,System.Half)
+  commentId: M:System.HalfExtensions.WriteLine(System.IO.TextWriter,System.Half)
+  id: WriteLine(System.IO.TextWriter,System.Half)
+  isExtensionMethod: true
+  parent: System.HalfExtensions
+  langs:
+  - csharp
+  - vb
+  name: WriteLine(TextWriter, Half)
+  nameWithType: HalfExtensions.WriteLine(TextWriter, Half)
+  fullName: System.HalfExtensions.WriteLine(System.IO.TextWriter, System.Half)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/HalfExtensions.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: WriteLine
+    path: HalfExtensions.cs
+    startLine: 52
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static void WriteLine(this TextWriter writer, Half value)
+    parameters:
+    - id: writer
+      type: System.IO.TextWriter
+      description: ''
+    - id: value
+      type: System.Half
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub WriteLine(writer As TextWriter, value As Half)
+  overload: System.HalfExtensions.WriteLine*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: System.HalfExtensions.Average(System.Collections.Generic.IEnumerable{System.Half})
+  commentId: M:System.HalfExtensions.Average(System.Collections.Generic.IEnumerable{System.Half})
+  id: Average(System.Collections.Generic.IEnumerable{System.Half})
+  isExtensionMethod: true
+  parent: System.HalfExtensions
+  langs:
+  - csharp
+  - vb
+  name: Average(IEnumerable<Half>)
+  nameWithType: HalfExtensions.Average(IEnumerable<Half>)
+  fullName: System.HalfExtensions.Average(System.Collections.Generic.IEnumerable<System.Half>)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/HalfExtensions.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: Average
+    path: HalfExtensions.cs
+    startLine: 64
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static Half Average(this IEnumerable<Half> source)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{System.Half}
+      description: ''
+    return:
+      type: System.Half
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Average(source As IEnumerable(Of Half)) As Half
+  overload: System.HalfExtensions.Average*
+  nameWithType.vb: HalfExtensions.Average(IEnumerable(Of Half))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.HalfExtensions.Average(System.Collections.Generic.IEnumerable(Of System.Half))
+  name.vb: Average(IEnumerable(Of Half))
+- uid: System.HalfExtensions.Average(System.Collections.Generic.IEnumerable{System.Nullable{System.Half}})
+  commentId: M:System.HalfExtensions.Average(System.Collections.Generic.IEnumerable{System.Nullable{System.Half}})
+  id: Average(System.Collections.Generic.IEnumerable{System.Nullable{System.Half}})
+  isExtensionMethod: true
+  parent: System.HalfExtensions
+  langs:
+  - csharp
+  - vb
+  name: Average(IEnumerable<Nullable<Half>>)
+  nameWithType: HalfExtensions.Average(IEnumerable<Nullable<Half>>)
+  fullName: System.HalfExtensions.Average(System.Collections.Generic.IEnumerable<System.Nullable<System.Half>>)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/HalfExtensions.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: Average
+    path: HalfExtensions.cs
+    startLine: 83
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static Half? Average(this IEnumerable<Half?> source)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{System.Nullable{System.Half}}
+      description: ''
+    return:
+      type: System.Nullable{System.Half}
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Average(source As IEnumerable(Of Half?)) As Half?
+  overload: System.HalfExtensions.Average*
+  nameWithType.vb: HalfExtensions.Average(IEnumerable(Of Nullable(Of Half)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.HalfExtensions.Average(System.Collections.Generic.IEnumerable(Of System.Nullable(Of System.Half)))
+  name.vb: Average(IEnumerable(Of Nullable(Of Half)))
+- uid: System.HalfExtensions.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Half})
+  commentId: M:System.HalfExtensions.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Half})
+  id: Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Half})
+  isExtensionMethod: true
+  parent: System.HalfExtensions
+  langs:
+  - csharp
+  - vb
+  name: Average<TSource>(IEnumerable<TSource>, Func<TSource, Half>)
+  nameWithType: HalfExtensions.Average<TSource>(IEnumerable<TSource>, Func<TSource, Half>)
+  fullName: System.HalfExtensions.Average<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Half>)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/HalfExtensions.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: Average
+    path: HalfExtensions.cs
+    startLine: 106
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static Half Average<TSource>(this IEnumerable<TSource> source, Func<TSource, Half> selector)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{{TSource}}
+      description: ''
+    - id: selector
+      type: System.Func{{TSource},System.Half}
+      description: ''
+    typeParameters:
+    - id: TSource
+    return:
+      type: System.Half
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Average(Of TSource)(source As IEnumerable(Of TSource), selector As Func(Of TSource, Half)) As Half
+  overload: System.HalfExtensions.Average*
+  nameWithType.vb: HalfExtensions.Average(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Half))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.HalfExtensions.Average(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, System.Half))
+  name.vb: Average(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Half))
+- uid: System.HalfExtensions.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Half}})
+  commentId: M:System.HalfExtensions.Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Half}})
+  id: Average``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Half}})
+  isExtensionMethod: true
+  parent: System.HalfExtensions
+  langs:
+  - csharp
+  - vb
+  name: Average<TSource>(IEnumerable<TSource>, Func<TSource, Nullable<Half>>)
+  nameWithType: HalfExtensions.Average<TSource>(IEnumerable<TSource>, Func<TSource, Nullable<Half>>)
+  fullName: System.HalfExtensions.Average<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Nullable<System.Half>>)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/HalfExtensions.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: Average
+    path: HalfExtensions.cs
+    startLine: 129
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static Half? Average<TSource>(this IEnumerable<TSource> source, Func<TSource, Half?> selector)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{{TSource}}
+      description: ''
+    - id: selector
+      type: System.Func{{TSource},System.Nullable{System.Half}}
+      description: ''
+    typeParameters:
+    - id: TSource
+    return:
+      type: System.Nullable{System.Half}
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Average(Of TSource)(source As IEnumerable(Of TSource), selector As Func(Of TSource, Half?)) As Half?
+  overload: System.HalfExtensions.Average*
+  nameWithType.vb: HalfExtensions.Average(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Nullable(Of Half)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.HalfExtensions.Average(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, System.Nullable(Of System.Half)))
+  name.vb: Average(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Nullable(Of Half)))
+- uid: System.HalfExtensions.Max(System.Collections.Generic.IEnumerable{System.Half})
+  commentId: M:System.HalfExtensions.Max(System.Collections.Generic.IEnumerable{System.Half})
+  id: Max(System.Collections.Generic.IEnumerable{System.Half})
+  isExtensionMethod: true
+  parent: System.HalfExtensions
+  langs:
+  - csharp
+  - vb
+  name: Max(IEnumerable<Half>)
+  nameWithType: HalfExtensions.Max(IEnumerable<Half>)
+  fullName: System.HalfExtensions.Max(System.Collections.Generic.IEnumerable<System.Half>)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/HalfExtensions.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: Max
+    path: HalfExtensions.cs
+    startLine: 154
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static Half Max(this IEnumerable<Half> source)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{System.Half}
+      description: ''
+    return:
+      type: System.Half
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Max(source As IEnumerable(Of Half)) As Half
+  overload: System.HalfExtensions.Max*
+  nameWithType.vb: HalfExtensions.Max(IEnumerable(Of Half))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.HalfExtensions.Max(System.Collections.Generic.IEnumerable(Of System.Half))
+  name.vb: Max(IEnumerable(Of Half))
+- uid: System.HalfExtensions.Max(System.Collections.Generic.IEnumerable{System.Nullable{System.Half}})
+  commentId: M:System.HalfExtensions.Max(System.Collections.Generic.IEnumerable{System.Nullable{System.Half}})
+  id: Max(System.Collections.Generic.IEnumerable{System.Nullable{System.Half}})
+  isExtensionMethod: true
+  parent: System.HalfExtensions
+  langs:
+  - csharp
+  - vb
+  name: Max(IEnumerable<Nullable<Half>>)
+  nameWithType: HalfExtensions.Max(IEnumerable<Nullable<Half>>)
+  fullName: System.HalfExtensions.Max(System.Collections.Generic.IEnumerable<System.Nullable<System.Half>>)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/HalfExtensions.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: Max
+    path: HalfExtensions.cs
+    startLine: 172
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static Half? Max(this IEnumerable<Half?> source)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{System.Nullable{System.Half}}
+      description: ''
+    return:
+      type: System.Nullable{System.Half}
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Max(source As IEnumerable(Of Half?)) As Half?
+  overload: System.HalfExtensions.Max*
+  nameWithType.vb: HalfExtensions.Max(IEnumerable(Of Nullable(Of Half)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.HalfExtensions.Max(System.Collections.Generic.IEnumerable(Of System.Nullable(Of System.Half)))
+  name.vb: Max(IEnumerable(Of Nullable(Of Half)))
+- uid: System.HalfExtensions.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Half})
+  commentId: M:System.HalfExtensions.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Half})
+  id: Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Half})
+  isExtensionMethod: true
+  parent: System.HalfExtensions
+  langs:
+  - csharp
+  - vb
+  name: Max<TSource>(IEnumerable<TSource>, Func<TSource, Half>)
+  nameWithType: HalfExtensions.Max<TSource>(IEnumerable<TSource>, Func<TSource, Half>)
+  fullName: System.HalfExtensions.Max<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Half>)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/HalfExtensions.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: Max
+    path: HalfExtensions.cs
+    startLine: 192
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static Half Max<TSource>(this IEnumerable<TSource> source, Func<TSource, Half> selector)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{{TSource}}
+      description: ''
+    - id: selector
+      type: System.Func{{TSource},System.Half}
+      description: ''
+    typeParameters:
+    - id: TSource
+    return:
+      type: System.Half
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Max(Of TSource)(source As IEnumerable(Of TSource), selector As Func(Of TSource, Half)) As Half
+  overload: System.HalfExtensions.Max*
+  nameWithType.vb: HalfExtensions.Max(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Half))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.HalfExtensions.Max(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, System.Half))
+  name.vb: Max(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Half))
+- uid: System.HalfExtensions.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Half}})
+  commentId: M:System.HalfExtensions.Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Half}})
+  id: Max``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Half}})
+  isExtensionMethod: true
+  parent: System.HalfExtensions
+  langs:
+  - csharp
+  - vb
+  name: Max<TSource>(IEnumerable<TSource>, Func<TSource, Nullable<Half>>)
+  nameWithType: HalfExtensions.Max<TSource>(IEnumerable<TSource>, Func<TSource, Nullable<Half>>)
+  fullName: System.HalfExtensions.Max<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Nullable<System.Half>>)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/HalfExtensions.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: Max
+    path: HalfExtensions.cs
+    startLine: 217
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static Half? Max<TSource>(this IEnumerable<TSource> source, Func<TSource, Half?> selector)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{{TSource}}
+      description: ''
+    - id: selector
+      type: System.Func{{TSource},System.Nullable{System.Half}}
+      description: ''
+    typeParameters:
+    - id: TSource
+    return:
+      type: System.Nullable{System.Half}
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Max(Of TSource)(source As IEnumerable(Of TSource), selector As Func(Of TSource, Half?)) As Half?
+  overload: System.HalfExtensions.Max*
+  nameWithType.vb: HalfExtensions.Max(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Nullable(Of Half)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.HalfExtensions.Max(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, System.Nullable(Of System.Half)))
+  name.vb: Max(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Nullable(Of Half)))
+- uid: System.HalfExtensions.Min(System.Collections.Generic.IEnumerable{System.Half})
+  commentId: M:System.HalfExtensions.Min(System.Collections.Generic.IEnumerable{System.Half})
+  id: Min(System.Collections.Generic.IEnumerable{System.Half})
+  isExtensionMethod: true
+  parent: System.HalfExtensions
+  langs:
+  - csharp
+  - vb
+  name: Min(IEnumerable<Half>)
+  nameWithType: HalfExtensions.Min(IEnumerable<Half>)
+  fullName: System.HalfExtensions.Min(System.Collections.Generic.IEnumerable<System.Half>)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/HalfExtensions.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: Min
+    path: HalfExtensions.cs
+    startLine: 241
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static Half Min(this IEnumerable<Half> source)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{System.Half}
+      description: ''
+    return:
+      type: System.Half
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Min(source As IEnumerable(Of Half)) As Half
+  overload: System.HalfExtensions.Min*
+  nameWithType.vb: HalfExtensions.Min(IEnumerable(Of Half))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.HalfExtensions.Min(System.Collections.Generic.IEnumerable(Of System.Half))
+  name.vb: Min(IEnumerable(Of Half))
+- uid: System.HalfExtensions.Min(System.Collections.Generic.IEnumerable{System.Nullable{System.Half}})
+  commentId: M:System.HalfExtensions.Min(System.Collections.Generic.IEnumerable{System.Nullable{System.Half}})
+  id: Min(System.Collections.Generic.IEnumerable{System.Nullable{System.Half}})
+  isExtensionMethod: true
+  parent: System.HalfExtensions
+  langs:
+  - csharp
+  - vb
+  name: Min(IEnumerable<Nullable<Half>>)
+  nameWithType: HalfExtensions.Min(IEnumerable<Nullable<Half>>)
+  fullName: System.HalfExtensions.Min(System.Collections.Generic.IEnumerable<System.Nullable<System.Half>>)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/HalfExtensions.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: Min
+    path: HalfExtensions.cs
+    startLine: 259
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static Half? Min(this IEnumerable<Half?> source)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{System.Nullable{System.Half}}
+      description: ''
+    return:
+      type: System.Nullable{System.Half}
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Min(source As IEnumerable(Of Half?)) As Half?
+  overload: System.HalfExtensions.Min*
+  nameWithType.vb: HalfExtensions.Min(IEnumerable(Of Nullable(Of Half)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.HalfExtensions.Min(System.Collections.Generic.IEnumerable(Of System.Nullable(Of System.Half)))
+  name.vb: Min(IEnumerable(Of Nullable(Of Half)))
+- uid: System.HalfExtensions.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Half})
+  commentId: M:System.HalfExtensions.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Half})
+  id: Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Half})
+  isExtensionMethod: true
+  parent: System.HalfExtensions
+  langs:
+  - csharp
+  - vb
+  name: Min<TSource>(IEnumerable<TSource>, Func<TSource, Half>)
+  nameWithType: HalfExtensions.Min<TSource>(IEnumerable<TSource>, Func<TSource, Half>)
+  fullName: System.HalfExtensions.Min<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Half>)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/HalfExtensions.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: Min
+    path: HalfExtensions.cs
+    startLine: 279
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static Half Min<TSource>(this IEnumerable<TSource> source, Func<TSource, Half> selector)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{{TSource}}
+      description: ''
+    - id: selector
+      type: System.Func{{TSource},System.Half}
+      description: ''
+    typeParameters:
+    - id: TSource
+    return:
+      type: System.Half
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Min(Of TSource)(source As IEnumerable(Of TSource), selector As Func(Of TSource, Half)) As Half
+  overload: System.HalfExtensions.Min*
+  nameWithType.vb: HalfExtensions.Min(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Half))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.HalfExtensions.Min(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, System.Half))
+  name.vb: Min(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Half))
+- uid: System.HalfExtensions.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Half}})
+  commentId: M:System.HalfExtensions.Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Half}})
+  id: Min``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Half}})
+  isExtensionMethod: true
+  parent: System.HalfExtensions
+  langs:
+  - csharp
+  - vb
+  name: Min<TSource>(IEnumerable<TSource>, Func<TSource, Nullable<Half>>)
+  nameWithType: HalfExtensions.Min<TSource>(IEnumerable<TSource>, Func<TSource, Nullable<Half>>)
+  fullName: System.HalfExtensions.Min<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Nullable<System.Half>>)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/HalfExtensions.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: Min
+    path: HalfExtensions.cs
+    startLine: 304
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static Half? Min<TSource>(this IEnumerable<TSource> source, Func<TSource, Half?> selector)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{{TSource}}
+      description: ''
+    - id: selector
+      type: System.Func{{TSource},System.Nullable{System.Half}}
+      description: ''
+    typeParameters:
+    - id: TSource
+    return:
+      type: System.Nullable{System.Half}
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Min(Of TSource)(source As IEnumerable(Of TSource), selector As Func(Of TSource, Half?)) As Half?
+  overload: System.HalfExtensions.Min*
+  nameWithType.vb: HalfExtensions.Min(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Nullable(Of Half)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.HalfExtensions.Min(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, System.Nullable(Of System.Half)))
+  name.vb: Min(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Nullable(Of Half)))
+- uid: System.HalfExtensions.Sum(System.Collections.Generic.IEnumerable{System.Half})
+  commentId: M:System.HalfExtensions.Sum(System.Collections.Generic.IEnumerable{System.Half})
+  id: Sum(System.Collections.Generic.IEnumerable{System.Half})
+  isExtensionMethod: true
+  parent: System.HalfExtensions
+  langs:
+  - csharp
+  - vb
+  name: Sum(IEnumerable<Half>)
+  nameWithType: HalfExtensions.Sum(IEnumerable<Half>)
+  fullName: System.HalfExtensions.Sum(System.Collections.Generic.IEnumerable<System.Half>)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/HalfExtensions.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: Sum
+    path: HalfExtensions.cs
+    startLine: 328
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static Half Sum(this IEnumerable<Half> source)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{System.Half}
+      description: ''
+    return:
+      type: System.Half
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Sum(source As IEnumerable(Of Half)) As Half
+  overload: System.HalfExtensions.Sum*
+  nameWithType.vb: HalfExtensions.Sum(IEnumerable(Of Half))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.HalfExtensions.Sum(System.Collections.Generic.IEnumerable(Of System.Half))
+  name.vb: Sum(IEnumerable(Of Half))
+- uid: System.HalfExtensions.Sum(System.Collections.Generic.IEnumerable{System.Nullable{System.Half}})
+  commentId: M:System.HalfExtensions.Sum(System.Collections.Generic.IEnumerable{System.Nullable{System.Half}})
+  id: Sum(System.Collections.Generic.IEnumerable{System.Nullable{System.Half}})
+  isExtensionMethod: true
+  parent: System.HalfExtensions
+  langs:
+  - csharp
+  - vb
+  name: Sum(IEnumerable<Nullable<Half>>)
+  nameWithType: HalfExtensions.Sum(IEnumerable<Nullable<Half>>)
+  fullName: System.HalfExtensions.Sum(System.Collections.Generic.IEnumerable<System.Nullable<System.Half>>)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/HalfExtensions.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: Sum
+    path: HalfExtensions.cs
+    startLine: 336
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static Half? Sum(this IEnumerable<Half?> source)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{System.Nullable{System.Half}}
+      description: ''
+    return:
+      type: System.Nullable{System.Half}
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Sum(source As IEnumerable(Of Half?)) As Half?
+  overload: System.HalfExtensions.Sum*
+  nameWithType.vb: HalfExtensions.Sum(IEnumerable(Of Nullable(Of Half)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.HalfExtensions.Sum(System.Collections.Generic.IEnumerable(Of System.Nullable(Of System.Half)))
+  name.vb: Sum(IEnumerable(Of Nullable(Of Half)))
+- uid: System.HalfExtensions.Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Half})
+  commentId: M:System.HalfExtensions.Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Half})
+  id: Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Half})
+  isExtensionMethod: true
+  parent: System.HalfExtensions
+  langs:
+  - csharp
+  - vb
+  name: Sum<TSource>(IEnumerable<TSource>, Func<TSource, Half>)
+  nameWithType: HalfExtensions.Sum<TSource>(IEnumerable<TSource>, Func<TSource, Half>)
+  fullName: System.HalfExtensions.Sum<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Half>)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/HalfExtensions.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: Sum
+    path: HalfExtensions.cs
+    startLine: 346
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static Half Sum<TSource>(this IEnumerable<TSource> source, Func<TSource, Half> selector)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{{TSource}}
+      description: ''
+    - id: selector
+      type: System.Func{{TSource},System.Half}
+      description: ''
+    typeParameters:
+    - id: TSource
+    return:
+      type: System.Half
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Sum(Of TSource)(source As IEnumerable(Of TSource), selector As Func(Of TSource, Half)) As Half
+  overload: System.HalfExtensions.Sum*
+  nameWithType.vb: HalfExtensions.Sum(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Half))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.HalfExtensions.Sum(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, System.Half))
+  name.vb: Sum(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Half))
+- uid: System.HalfExtensions.Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Half}})
+  commentId: M:System.HalfExtensions.Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Half}})
+  id: Sum``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Half}})
+  isExtensionMethod: true
+  parent: System.HalfExtensions
+  langs:
+  - csharp
+  - vb
+  name: Sum<TSource>(IEnumerable<TSource>, Func<TSource, Nullable<Half>>)
+  nameWithType: HalfExtensions.Sum<TSource>(IEnumerable<TSource>, Func<TSource, Nullable<Half>>)
+  fullName: System.HalfExtensions.Sum<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Nullable<System.Half>>)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/HalfExtensions.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: Sum
+    path: HalfExtensions.cs
+    startLine: 357
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static Half? Sum<TSource>(this IEnumerable<TSource> source, Func<TSource, Half?> selector)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{{TSource}}
+      description: ''
+    - id: selector
+      type: System.Func{{TSource},System.Nullable{System.Half}}
+      description: ''
+    typeParameters:
+    - id: TSource
+    return:
+      type: System.Nullable{System.Half}
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Sum(Of TSource)(source As IEnumerable(Of TSource), selector As Func(Of TSource, Half?)) As Half?
+  overload: System.HalfExtensions.Sum*
+  nameWithType.vb: HalfExtensions.Sum(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Nullable(Of Half)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.HalfExtensions.Sum(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, System.Nullable(Of System.Half)))
+  name.vb: Sum(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Nullable(Of Half)))
+references:
+- uid: System
+  commentId: N:System
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.HalfExtensions.ReadHalf*
+  commentId: Overload:System.HalfExtensions.ReadHalf
+  name: ReadHalf
+  nameWithType: HalfExtensions.ReadHalf
+  fullName: System.HalfExtensions.ReadHalf
+- uid: System.IO.BinaryReader
+  commentId: T:System.IO.BinaryReader
+  parent: System.IO
+  isExternal: true
+  name: BinaryReader
+  nameWithType: BinaryReader
+  fullName: System.IO.BinaryReader
+- uid: System.Half
+  commentId: T:System.Half
+  parent: System
+  name: Half
+  nameWithType: Half
+  fullName: System.Half
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: System.HalfExtensions.Write*
+  commentId: Overload:System.HalfExtensions.Write
+  name: Write
+  nameWithType: HalfExtensions.Write
+  fullName: System.HalfExtensions.Write
+- uid: System.IO.BinaryWriter
+  commentId: T:System.IO.BinaryWriter
+  parent: System.IO
+  isExternal: true
+  name: BinaryWriter
+  nameWithType: BinaryWriter
+  fullName: System.IO.BinaryWriter
+- uid: System.IO.TextWriter
+  commentId: T:System.IO.TextWriter
+  parent: System.IO
+  isExternal: true
+  name: TextWriter
+  nameWithType: TextWriter
+  fullName: System.IO.TextWriter
+- uid: System.HalfExtensions.WriteLine*
+  commentId: Overload:System.HalfExtensions.WriteLine
+  name: WriteLine
+  nameWithType: HalfExtensions.WriteLine
+  fullName: System.HalfExtensions.WriteLine
+- uid: System.HalfExtensions.Average*
+  commentId: Overload:System.HalfExtensions.Average
+  name: Average
+  nameWithType: HalfExtensions.Average
+  fullName: System.HalfExtensions.Average
+- uid: System.Collections.Generic.IEnumerable{System.Half}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Half}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Half>
+  nameWithType: IEnumerable<Half>
+  fullName: System.Collections.Generic.IEnumerable<System.Half>
+  nameWithType.vb: IEnumerable(Of Half)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Half)
+  name.vb: IEnumerable(Of Half)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Half
+    name: Half
+    nameWithType: Half
+    fullName: System.Half
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Half
+    name: Half
+    nameWithType: Half
+    fullName: System.Half
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.IEnumerable{System.Nullable{System.Half}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Nullable{System.Half}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Nullable<Half>>
+  nameWithType: IEnumerable<Nullable<Half>>
+  fullName: System.Collections.Generic.IEnumerable<System.Nullable<System.Half>>
+  nameWithType.vb: IEnumerable(Of Nullable(Of Half))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Nullable(Of System.Half))
+  name.vb: IEnumerable(Of Nullable(Of Half))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Half
+    name: Half
+    nameWithType: Half
+    fullName: System.Half
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Half
+    name: Half
+    nameWithType: Half
+    fullName: System.Half
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable{System.Half}
+  commentId: T:System.Nullable{System.Half}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Half>
+  nameWithType: Nullable<Half>
+  fullName: System.Nullable<System.Half>
+  nameWithType.vb: Nullable(Of Half)
+  fullName.vb: System.Nullable(Of System.Half)
+  name.vb: Nullable(Of Half)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Half
+    name: Half
+    nameWithType: Half
+    fullName: System.Half
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Half
+    name: Half
+    nameWithType: Half
+    fullName: System.Half
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{{TSource}}
+  commentId: T:System.Collections.Generic.IEnumerable{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<TSource>
+  nameWithType: IEnumerable<TSource>
+  fullName: System.Collections.Generic.IEnumerable<TSource>
+  nameWithType.vb: IEnumerable(Of TSource)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of TSource)
+  name.vb: IEnumerable(Of TSource)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func{{TSource},System.Half}
+  commentId: T:System.Func{``0,System.Half}
+  parent: System
+  definition: System.Func`2
+  name: Func<TSource, Half>
+  nameWithType: Func<TSource, Half>
+  fullName: System.Func<TSource, System.Half>
+  nameWithType.vb: Func(Of TSource, Half)
+  fullName.vb: System.Func(Of TSource, System.Half)
+  name.vb: Func(Of TSource, Half)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Half
+    name: Half
+    nameWithType: Half
+    fullName: System.Half
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Half
+    name: Half
+    nameWithType: Half
+    fullName: System.Half
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func{{TSource},System.Nullable{System.Half}}
+  commentId: T:System.Func{``0,System.Nullable{System.Half}}
+  parent: System
+  definition: System.Func`2
+  name: Func<TSource, Nullable<Half>>
+  nameWithType: Func<TSource, Nullable<Half>>
+  fullName: System.Func<TSource, System.Nullable<System.Half>>
+  nameWithType.vb: Func(Of TSource, Nullable(Of Half))
+  fullName.vb: System.Func(Of TSource, System.Nullable(Of System.Half))
+  name.vb: Func(Of TSource, Nullable(Of Half))
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Half
+    name: Half
+    nameWithType: Half
+    fullName: System.Half
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Half
+    name: Half
+    nameWithType: Half
+    fullName: System.Half
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.HalfExtensions.Max*
+  commentId: Overload:System.HalfExtensions.Max
+  name: Max
+  nameWithType: HalfExtensions.Max
+  fullName: System.HalfExtensions.Max
+- uid: System.HalfExtensions.Min*
+  commentId: Overload:System.HalfExtensions.Min
+  name: Min
+  nameWithType: HalfExtensions.Min
+  fullName: System.HalfExtensions.Min
+- uid: System.HalfExtensions.Sum*
+  commentId: Overload:System.HalfExtensions.Sum
+  name: Sum
+  nameWithType: HalfExtensions.Sum
+  fullName: System.HalfExtensions.Sum

@@ -1,0 +1,6053 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Half
+  commentId: T:System.Half
+  id: Half
+  parent: System
+  children:
+  - System.Half.CompareTo(System.Half)
+  - System.Half.CompareTo(System.Object)
+  - System.Half.Epsilon
+  - System.Half.Equals(System.Half)
+  - System.Half.Equals(System.Object)
+  - System.Half.GetBytes(System.Half)
+  - System.Half.GetHashCode
+  - System.Half.GetTypeCode
+  - System.Half.IsFinite(System.Half)
+  - System.Half.IsInfinity(System.Half)
+  - System.Half.IsNaN(System.Half)
+  - System.Half.IsNegative(System.Half)
+  - System.Half.IsNegativeInfinity(System.Half)
+  - System.Half.IsNormal(System.Half)
+  - System.Half.IsPositiveInfinity(System.Half)
+  - System.Half.IsSubnormal(System.Half)
+  - System.Half.MaxValue
+  - System.Half.MinValue
+  - System.Half.NaN
+  - System.Half.NegativeInfinity
+  - System.Half.op_Addition(System.Half,System.Half)
+  - System.Half.op_Decrement(System.Half)
+  - System.Half.op_Division(System.Half,System.Half)
+  - System.Half.op_Equality(System.Half,System.Half)
+  - System.Half.op_Explicit(System.Decimal)~System.Half
+  - System.Half.op_Explicit(System.Double)~System.Half
+  - System.Half.op_Explicit(System.Half)~System.Byte
+  - System.Half.op_Explicit(System.Half)~System.Char
+  - System.Half.op_Explicit(System.Half)~System.Decimal
+  - System.Half.op_Explicit(System.Half)~System.Int16
+  - System.Half.op_Explicit(System.Half)~System.Int32
+  - System.Half.op_Explicit(System.Half)~System.Int64
+  - System.Half.op_Explicit(System.Half)~System.SByte
+  - System.Half.op_Explicit(System.Half)~System.UInt16
+  - System.Half.op_Explicit(System.Half)~System.UInt32
+  - System.Half.op_Explicit(System.Half)~System.UInt64
+  - System.Half.op_Explicit(System.Single)~System.Half
+  - System.Half.op_Exponent(System.Half,System.Half)
+  - System.Half.op_GreaterThan(System.Half,System.Half)
+  - System.Half.op_GreaterThanOrEqual(System.Half,System.Half)
+  - System.Half.op_Implicit(System.Byte)~System.Half
+  - System.Half.op_Implicit(System.Char)~System.Half
+  - System.Half.op_Implicit(System.Half)~System.Double
+  - System.Half.op_Implicit(System.Half)~System.Single
+  - System.Half.op_Implicit(System.Int16)~System.Half
+  - System.Half.op_Implicit(System.Int32)~System.Half
+  - System.Half.op_Implicit(System.Int64)~System.Half
+  - System.Half.op_Implicit(System.SByte)~System.Half
+  - System.Half.op_Implicit(System.UInt16)~System.Half
+  - System.Half.op_Implicit(System.UInt32)~System.Half
+  - System.Half.op_Implicit(System.UInt64)~System.Half
+  - System.Half.op_Increment(System.Half)
+  - System.Half.op_Inequality(System.Half,System.Half)
+  - System.Half.op_LessThan(System.Half,System.Half)
+  - System.Half.op_LessThanOrEqual(System.Half,System.Half)
+  - System.Half.op_Modulus(System.Half,System.Half)
+  - System.Half.op_Multiply(System.Half,System.Half)
+  - System.Half.op_Subtraction(System.Half,System.Half)
+  - System.Half.op_UnaryNegation(System.Half)
+  - System.Half.op_UnaryPlus(System.Half)
+  - System.Half.Parse(System.String)
+  - System.Half.Parse(System.String,System.Globalization.NumberStyles)
+  - System.Half.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider)
+  - System.Half.Parse(System.String,System.IFormatProvider)
+  - System.Half.PositiveInfinity
+  - System.Half.SizeOf
+  - System.Half.System#IConvertible#ToBoolean(System.IFormatProvider)
+  - System.Half.System#IConvertible#ToByte(System.IFormatProvider)
+  - System.Half.System#IConvertible#ToChar(System.IFormatProvider)
+  - System.Half.System#IConvertible#ToDateTime(System.IFormatProvider)
+  - System.Half.System#IConvertible#ToDecimal(System.IFormatProvider)
+  - System.Half.System#IConvertible#ToDouble(System.IFormatProvider)
+  - System.Half.System#IConvertible#ToInt16(System.IFormatProvider)
+  - System.Half.System#IConvertible#ToInt32(System.IFormatProvider)
+  - System.Half.System#IConvertible#ToInt64(System.IFormatProvider)
+  - System.Half.System#IConvertible#ToSByte(System.IFormatProvider)
+  - System.Half.System#IConvertible#ToSingle(System.IFormatProvider)
+  - System.Half.System#IConvertible#ToString(System.IFormatProvider)
+  - System.Half.System#IConvertible#ToType(System.Type,System.IFormatProvider)
+  - System.Half.System#IConvertible#ToUInt16(System.IFormatProvider)
+  - System.Half.System#IConvertible#ToUInt32(System.IFormatProvider)
+  - System.Half.System#IConvertible#ToUInt64(System.IFormatProvider)
+  - System.Half.ToHalf(System.Byte[],System.Int32)
+  - System.Half.ToString
+  - System.Half.ToString(System.IFormatProvider)
+  - System.Half.ToString(System.String)
+  - System.Half.ToString(System.String,System.IFormatProvider)
+  - System.Half.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider)
+  - System.Half.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Half@)
+  - System.Half.TryParse(System.String,System.Half@)
+  langs:
+  - csharp
+  - vb
+  name: Half
+  nameWithType: Half
+  fullName: System.Half
+  type: Struct
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: Half
+    path: Half.cs
+    startLine: 30
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nRepresents a half-precision floating point number.\n"
+  remarks: "\nNote:\nHalf is not fast enought and precision is also very bad,\nso is should not be used for mathematical computation (use Single instead).\nThe main advantage of Half type is lower memory cost: two bytes per number.\nHalf is typically used in graphical applications.\n\nNote:\nAll functions, where is used conversion half->float/float->half,\nare approx. ten times slower than float->double/double->float, i.e. ~3ns on 2GHz CPU.\n\nReferences:\n- Code retrieved from http://sourceforge.net/p/csharp-half/code/HEAD/tree/ on 2015-12-04\n- Fast Half Float Conversions, Jeroen van der Zijp, link: http://www.fox-toolkit.org/ftp/fasthalffloatconversion.pdf\n- IEEE 754 revision, link: http://grouper.ieee.org/groups/754/\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct Half : IComparable, IFormattable, IConvertible, IComparable<Half>, IEquatable<Half>
+    content.vb: >-
+      <Serializable>
+
+      Public Structure Half
+          Implements IComparable, IFormattable, IConvertible, IComparable(Of Half), IEquatable(Of Half)
+  implements:
+  - System.IComparable
+  - System.IFormattable
+  - System.IConvertible
+  - System.IComparable{System.Half}
+  - System.IEquatable{System.Half}
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: System.Half.Parse(System.String)
+  commentId: M:System.Half.Parse(System.String)
+  id: Parse(System.String)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Parse(String)
+  nameWithType: Half.Parse(String)
+  fullName: System.Half.Parse(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: Parse
+    path: Half.cs
+    startLine: 62
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nConverts the string representation of a number to its System.Half equivalent.\n"
+  example: []
+  syntax:
+    content: public static Half Parse(string value)
+    parameters:
+    - id: value
+      type: System.String
+      description: The string representation of the number to convert.
+    return:
+      type: System.Half
+      description: The System.Half number equivalent to the number contained in value.
+    content.vb: Public Shared Function Parse(value As String) As Half
+  overload: System.Half.Parse*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: value is null.
+  - type: System.FormatException
+    commentId: T:System.FormatException
+    description: value is not in the correct format.
+  - type: System.OverflowException
+    commentId: T:System.OverflowException
+    description: value represents a number less than System.Half.MinValue or greater than System.Half.MaxValue.
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: System.Half.Parse(System.String,System.Globalization.NumberStyles)
+  commentId: M:System.Half.Parse(System.String,System.Globalization.NumberStyles)
+  id: Parse(System.String,System.Globalization.NumberStyles)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Parse(String, NumberStyles)
+  nameWithType: Half.Parse(String, NumberStyles)
+  fullName: System.Half.Parse(System.String, System.Globalization.NumberStyles)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: Parse
+    path: Half.cs
+    startLine: 82
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nConverts the string representation of a number in a specified style to its System.Half equivalent.\n"
+  example: []
+  syntax:
+    content: public static Half Parse(string value, NumberStyles style)
+    parameters:
+    - id: value
+      type: System.String
+      description: The string representation of the number to convert.
+    - id: style
+      type: System.Globalization.NumberStyles
+      description: "\nA bitwise combination of System.Globalization.NumberStyles values that indicates\nthe style elements that can be present in value. A typical value to specify is\nSystem.Globalization.NumberStyles.Number.\n"
+    return:
+      type: System.Half
+      description: The System.Half number equivalent to the number contained in s as specified by style.
+    content.vb: Public Shared Function Parse(value As String, style As NumberStyles) As Half
+  overload: System.Half.Parse*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: value is null.
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: "\nstyle is not a System.Globalization.NumberStyles value. -or- style is the\nSystem.Globalization.NumberStyles.AllowHexSpecifier value.\n"
+  - type: System.FormatException
+    commentId: T:System.FormatException
+    description: value is not in the correct format.
+  - type: System.OverflowException
+    commentId: T:System.OverflowException
+    description: value represents a number less than System.Half.MinValue or greater than System.Half.MaxValue.
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: System.Half.Parse(System.String,System.IFormatProvider)
+  commentId: M:System.Half.Parse(System.String,System.IFormatProvider)
+  id: Parse(System.String,System.IFormatProvider)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Parse(String, IFormatProvider)
+  nameWithType: Half.Parse(String, IFormatProvider)
+  fullName: System.Half.Parse(System.String, System.IFormatProvider)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: Parse
+    path: Half.cs
+    startLine: 96
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nConverts the string representation of a number to its System.Half equivalent\nusing the specified culture-specific format information.\n"
+  example: []
+  syntax:
+    content: public static Half Parse(string value, IFormatProvider provider)
+    parameters:
+    - id: value
+      type: System.String
+      description: The string representation of the number to convert.
+    - id: provider
+      type: System.IFormatProvider
+      description: An System.IFormatProvider that supplies culture-specific parsing information about value.
+    return:
+      type: System.Half
+      description: The System.Half number equivalent to the number contained in s as specified by provider.
+    content.vb: Public Shared Function Parse(value As String, provider As IFormatProvider) As Half
+  overload: System.Half.Parse*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: value is null.
+  - type: System.FormatException
+    commentId: T:System.FormatException
+    description: value is not in the correct format.
+  - type: System.OverflowException
+    commentId: T:System.OverflowException
+    description: value represents a number less than System.Half.MinValue or greater than System.Half.MaxValue.
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: System.Half.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider)
+  commentId: M:System.Half.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider)
+  id: Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Parse(String, NumberStyles, IFormatProvider)
+  nameWithType: Half.Parse(String, NumberStyles, IFormatProvider)
+  fullName: System.Half.Parse(System.String, System.Globalization.NumberStyles, System.IFormatProvider)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: Parse
+    path: Half.cs
+    startLine: 119
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nConverts the string representation of a number to its System.Half equivalent\nusing the specified style and culture-specific format.\n"
+  example: []
+  syntax:
+    content: public static Half Parse(string value, NumberStyles style, IFormatProvider provider)
+    parameters:
+    - id: value
+      type: System.String
+      description: The string representation of the number to convert.
+    - id: style
+      type: System.Globalization.NumberStyles
+      description: "\nA bitwise combination of System.Globalization.NumberStyles values that indicates\nthe style elements that can be present in value. A typical value to specify is\nSystem.Globalization.NumberStyles.Number.\n"
+    - id: provider
+      type: System.IFormatProvider
+      description: An System.IFormatProvider object that supplies culture-specific information about the format of value.
+    return:
+      type: System.Half
+      description: The System.Half number equivalent to the number contained in s as specified by style and provider.
+    content.vb: Public Shared Function Parse(value As String, style As NumberStyles, provider As IFormatProvider) As Half
+  overload: System.Half.Parse*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: value is null.
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: "\nstyle is not a System.Globalization.NumberStyles value. -or- style is the\nSystem.Globalization.NumberStyles.AllowHexSpecifier value.\n"
+  - type: System.FormatException
+    commentId: T:System.FormatException
+    description: value is not in the correct format.
+  - type: System.OverflowException
+    commentId: T:System.OverflowException
+    description: value represents a number less than System.Half.MinValue or greater than System.Half.MaxValue.
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: System.Half.TryParse(System.String,System.Half@)
+  commentId: M:System.Half.TryParse(System.String,System.Half@)
+  id: TryParse(System.String,System.Half@)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: TryParse(String, out Half)
+  nameWithType: Half.TryParse(String, out Half)
+  fullName: System.Half.TryParse(System.String, out System.Half)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: TryParse
+    path: Half.cs
+    startLine: 137
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nConverts the string representation of a number to its System.Half equivalent.\nA return value indicates whether the conversion succeeded or failed.\n"
+  example: []
+  syntax:
+    content: public static bool TryParse(string value, out Half result)
+    parameters:
+    - id: value
+      type: System.String
+      description: The string representation of the number to convert.
+    - id: result
+      type: System.Half
+      description: "\nWhen this method returns, contains the System.Half number that is equivalent\nto the numeric value contained in value, if the conversion succeeded, or is zero\nif the conversion failed. The conversion fails if the s parameter is null,\nis not a number in a valid format, or represents a number less than System.Half.MinValue\nor greater than System.Half.MaxValue. This parameter is passed uninitialized.\n"
+    return:
+      type: System.Boolean
+      description: true if s was converted successfully; otherwise, false.
+    content.vb: Public Shared Function TryParse(value As String, ByRef result As Half) As Boolean
+  overload: System.Half.TryParse*
+  nameWithType.vb: Half.TryParse(String, ByRef Half)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Half.TryParse(System.String, ByRef System.Half)
+  name.vb: TryParse(String, ByRef Half)
+- uid: System.Half.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Half@)
+  commentId: M:System.Half.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Half@)
+  id: TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Half@)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: TryParse(String, NumberStyles, IFormatProvider, out Half)
+  nameWithType: Half.TryParse(String, NumberStyles, IFormatProvider, out Half)
+  fullName: System.Half.TryParse(System.String, System.Globalization.NumberStyles, System.IFormatProvider, out System.Half)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: TryParse
+    path: Half.cs
+    startLine: 173
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nConverts the string representation of a number to its System.Half equivalent\nusing the specified style and culture-specific format. A return value indicates\nwhether the conversion succeeded or failed.\n"
+  example: []
+  syntax:
+    content: public static bool TryParse(string value, NumberStyles style, IFormatProvider provider, out Half result)
+    parameters:
+    - id: value
+      type: System.String
+      description: The string representation of the number to convert.
+    - id: style
+      type: System.Globalization.NumberStyles
+      description: "\nA bitwise combination of System.Globalization.NumberStyles values that indicates\nthe permitted format of value. A typical value to specify is System.Globalization.NumberStyles.Number.\n"
+    - id: provider
+      type: System.IFormatProvider
+      description: An System.IFormatProvider object that supplies culture-specific parsing information about value.
+    - id: result
+      type: System.Half
+      description: "\nWhen this method returns, contains the System.Half number that is equivalent\nto the numeric value contained in value, if the conversion succeeded, or is zero\nif the conversion failed. The conversion fails if the s parameter is null,\nis not in a format compliant with style, or represents a number less than\nSystem.Half.MinValue or greater than System.Half.MaxValue. This parameter is passed uninitialized.\n"
+    return:
+      type: System.Boolean
+      description: true if s was converted successfully; otherwise, false.
+    content.vb: Public Shared Function TryParse(value As String, style As NumberStyles, provider As IFormatProvider, ByRef result As Half) As Boolean
+  overload: System.Half.TryParse*
+  exceptions:
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: "\nstyle is not a System.Globalization.NumberStyles value. -or- style\nis the System.Globalization.NumberStyles.AllowHexSpecifier value.\n"
+  nameWithType.vb: Half.TryParse(String, NumberStyles, IFormatProvider, ByRef Half)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Half.TryParse(System.String, System.Globalization.NumberStyles, System.IFormatProvider, ByRef System.Half)
+  name.vb: TryParse(String, NumberStyles, IFormatProvider, ByRef Half)
+- uid: System.Half.CompareTo(System.Object)
+  commentId: M:System.Half.CompareTo(System.Object)
+  id: CompareTo(System.Object)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: CompareTo(Object)
+  nameWithType: Half.CompareTo(Object)
+  fullName: System.Half.CompareTo(System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: CompareTo
+    path: Half.cs
+    startLine: 199
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nCompares this instance to a specified System.Object.\n"
+  example: []
+  syntax:
+    content: public int CompareTo(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: An System.Object or null.
+    return:
+      type: System.Int32
+      description: "\nA signed number indicating the relative values of this instance and value.\nReturn Value Meaning Less than zero This instance is less than value. Zero\nThis instance is equal to value. Greater than zero This instance is greater\nthan value. -or- value is null.\n"
+    content.vb: Public Function CompareTo(obj As Object) As Integer
+  overload: System.Half.CompareTo*
+  exceptions:
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: value is not a System.Half
+  implements:
+  - System.IComparable.CompareTo(System.Object)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: System.Half.CompareTo(System.Half)
+  commentId: M:System.Half.CompareTo(System.Half)
+  id: CompareTo(System.Half)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: CompareTo(Half)
+  nameWithType: Half.CompareTo(Half)
+  fullName: System.Half.CompareTo(System.Half)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: CompareTo
+    path: Half.cs
+    startLine: 219
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nCompares this instance to a specified System.Half object.\n"
+  example: []
+  syntax:
+    content: public int CompareTo(Half other)
+    parameters:
+    - id: other
+      type: System.Half
+      description: A System.Half object.
+    return:
+      type: System.Int32
+      description: "\nA signed number indicating the relative values of this instance and value.\nReturn Value Meaning Less than zero This instance is less than value. Zero\nThis instance is equal to value. Greater than zero This instance is greater than value.\n"
+    content.vb: Public Function CompareTo(other As Half) As Integer
+  overload: System.Half.CompareTo*
+  implements:
+  - System.IComparable{System.Half}.CompareTo(System.Half)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: System.Half.Equals(System.Object)
+  commentId: M:System.Half.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: Half.Equals(Object)
+  fullName: System.Half.Equals(System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: Equals
+    path: Half.cs
+    startLine: 244
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nReturns a value indicating whether this instance and a specified System.Object\nrepresent the same type and value.\n"
+  example: []
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: An System.Object.
+    return:
+      type: System.Boolean
+      description: true if value is a System.Half and equal to this instance; otherwise, false.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: System.Half.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: System.Half.Equals(System.Half)
+  commentId: M:System.Half.Equals(System.Half)
+  id: Equals(System.Half)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Equals(Half)
+  nameWithType: Half.Equals(Half)
+  fullName: System.Half.Equals(System.Half)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: Equals
+    path: Half.cs
+    startLine: 252
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nReturns a value indicating whether this instance and a specified System.Half object represent the same value.\n"
+  example: []
+  syntax:
+    content: public bool Equals(Half other)
+    parameters:
+    - id: other
+      type: System.Half
+      description: A System.Half object to compare to this instance.
+    return:
+      type: System.Boolean
+      description: true if value is equal to this instance; otherwise, false.
+    content.vb: Public Function Equals(other As Half) As Boolean
+  overload: System.Half.Equals*
+  implements:
+  - System.IEquatable{System.Half}.Equals(System.Half)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: System.Half.GetHashCode
+  commentId: M:System.Half.GetHashCode
+  id: GetHashCode
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: Half.GetHashCode()
+  fullName: System.Half.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: GetHashCode
+    path: Half.cs
+    startLine: 259
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nReturns the hash code for this instance.\n"
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer hash code.
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: System.Half.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: System.Half.GetTypeCode
+  commentId: M:System.Half.GetTypeCode
+  id: GetTypeCode
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: GetTypeCode()
+  nameWithType: Half.GetTypeCode()
+  fullName: System.Half.GetTypeCode()
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: GetTypeCode
+    path: Half.cs
+    startLine: 266
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nReturns the System.TypeCode for value type System.Half.\n"
+  example: []
+  syntax:
+    content: public TypeCode GetTypeCode()
+    return:
+      type: System.TypeCode
+      description: The enumerated constant (TypeCode)255.
+    content.vb: Public Function GetTypeCode As TypeCode
+  overload: System.Half.GetTypeCode*
+  implements:
+  - System.IConvertible.GetTypeCode
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: System.Half.ToString
+  commentId: M:System.Half.ToString
+  id: ToString
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Half.ToString()
+  fullName: System.Half.ToString()
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: ToString
+    path: Half.cs
+    startLine: 273
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nConverts the numeric value of this instance to its equivalent string representation.\n"
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: A string that represents the value of this instance.
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.ValueType.ToString
+  overload: System.Half.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: System.Half.ToString(System.String)
+  commentId: M:System.Half.ToString(System.String)
+  id: ToString(System.String)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: Half.ToString(String)
+  fullName: System.Half.ToString(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: ToString
+    path: Half.cs
+    startLine: 281
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nConverts the numeric value of this instance to its equivalent string representation, using the specified format.\n"
+  example: []
+  syntax:
+    content: public string ToString(string format)
+    parameters:
+    - id: format
+      type: System.String
+      description: A numeric format string.
+    return:
+      type: System.String
+      description: The string representation of the value of this instance as specified by format.
+    content.vb: Public Function ToString(format As String) As String
+  overload: System.Half.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: System.Half.ToString(System.IFormatProvider)
+  commentId: M:System.Half.ToString(System.IFormatProvider)
+  id: ToString(System.IFormatProvider)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: ToString(IFormatProvider)
+  nameWithType: Half.ToString(IFormatProvider)
+  fullName: System.Half.ToString(System.IFormatProvider)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: ToString
+    path: Half.cs
+    startLine: 290
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nConverts the numeric value of this instance to its equivalent string representation\nusing the specified culture-specific format information.\n"
+  example: []
+  syntax:
+    content: public string ToString(IFormatProvider formatProvider)
+    parameters:
+    - id: formatProvider
+      type: System.IFormatProvider
+      description: An System.IFormatProvider that supplies culture-specific formatting information.
+    return:
+      type: System.String
+      description: The string representation of the value of this instance as specified by provider.
+    content.vb: Public Function ToString(formatProvider As IFormatProvider) As String
+  overload: System.Half.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: System.Half.ToString(System.String,System.IFormatProvider)
+  commentId: M:System.Half.ToString(System.String,System.IFormatProvider)
+  id: ToString(System.String,System.IFormatProvider)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: ToString(String, IFormatProvider)
+  nameWithType: Half.ToString(String, IFormatProvider)
+  fullName: System.Half.ToString(System.String, System.IFormatProvider)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: ToString
+    path: Half.cs
+    startLine: 301
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nConverts the numeric value of this instance to its equivalent string representation\nusing the specified format and culture-specific format information.\n"
+  example: []
+  syntax:
+    content: public string ToString(string format, IFormatProvider formatProvider)
+    parameters:
+    - id: format
+      type: System.String
+      description: A numeric format string.
+    - id: formatProvider
+      type: System.IFormatProvider
+      description: An System.IFormatProvider that supplies culture-specific formatting information.
+    return:
+      type: System.String
+      description: The string representation of the value of this instance as specified by format and provider.
+    content.vb: Public Function ToString(format As String, formatProvider As IFormatProvider) As String
+  overload: System.Half.ToString*
+  exceptions:
+  - type: System.FormatException
+    commentId: T:System.FormatException
+    description: format is invalid.
+  implements:
+  - System.IFormattable.ToString(System.String,System.IFormatProvider)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: System.Half.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider)
+  commentId: M:System.Half.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider)
+  id: TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: TryFormat(Span<Char>, out Int32, ReadOnlySpan<Char>, IFormatProvider)
+  nameWithType: Half.TryFormat(Span<Char>, out Int32, ReadOnlySpan<Char>, IFormatProvider)
+  fullName: System.Half.TryFormat(System.Span<System.Char>, out System.Int32, System.ReadOnlySpan<System.Char>, System.IFormatProvider)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: TryFormat
+    path: Half.cs
+    startLine: 313
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public bool TryFormat(Span<char> destination, out int charsWritten, ReadOnlySpan<char> format = default(ReadOnlySpan<char>), IFormatProvider provider = null)
+    parameters:
+    - id: destination
+      type: System.Span{System.Char}
+      description: ''
+    - id: charsWritten
+      type: System.Int32
+      description: ''
+    - id: format
+      type: System.ReadOnlySpan{System.Char}
+      description: ''
+    - id: provider
+      type: System.IFormatProvider
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Function TryFormat(destination As Span(Of Char), ByRef charsWritten As Integer, format As ReadOnlySpan(Of Char) = Nothing, provider As IFormatProvider = Nothing) As Boolean
+  overload: System.Half.TryFormat*
+  nameWithType.vb: Half.TryFormat(Span(Of Char), ByRef Int32, ReadOnlySpan(Of Char), IFormatProvider)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: System.Half.TryFormat(System.Span(Of System.Char), ByRef System.Int32, System.ReadOnlySpan(Of System.Char), System.IFormatProvider)
+  name.vb: TryFormat(Span(Of Char), ByRef Int32, ReadOnlySpan(Of Char), IFormatProvider)
+- uid: System.Half.System#IConvertible#ToBoolean(System.IFormatProvider)
+  commentId: M:System.Half.System#IConvertible#ToBoolean(System.IFormatProvider)
+  id: System#IConvertible#ToBoolean(System.IFormatProvider)
+  isEii: true
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: IConvertible.ToBoolean(IFormatProvider)
+  nameWithType: Half.IConvertible.ToBoolean(IFormatProvider)
+  fullName: System.Half.System.IConvertible.ToBoolean(System.IFormatProvider)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: System.IConvertible.ToBoolean
+    path: Half.cs
+    startLine: 322
+  assemblies:
+  - NumericTypes
+  namespace: System
+  syntax:
+    content: bool IConvertible.ToBoolean(IFormatProvider provider)
+    parameters:
+    - id: provider
+      type: System.IFormatProvider
+    return:
+      type: System.Boolean
+    content.vb: Function System.IConvertible.ToBoolean(provider As IFormatProvider) As Boolean Implements IConvertible.ToBoolean
+  overload: System.Half.System#IConvertible#ToBoolean*
+  implements:
+  - System.IConvertible.ToBoolean(System.IFormatProvider)
+  nameWithType.vb: Half.System.IConvertible.ToBoolean(IFormatProvider)
+  name.vb: System.IConvertible.ToBoolean(IFormatProvider)
+- uid: System.Half.System#IConvertible#ToByte(System.IFormatProvider)
+  commentId: M:System.Half.System#IConvertible#ToByte(System.IFormatProvider)
+  id: System#IConvertible#ToByte(System.IFormatProvider)
+  isEii: true
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: IConvertible.ToByte(IFormatProvider)
+  nameWithType: Half.IConvertible.ToByte(IFormatProvider)
+  fullName: System.Half.System.IConvertible.ToByte(System.IFormatProvider)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: System.IConvertible.ToByte
+    path: Half.cs
+    startLine: 325
+  assemblies:
+  - NumericTypes
+  namespace: System
+  syntax:
+    content: byte IConvertible.ToByte(IFormatProvider provider)
+    parameters:
+    - id: provider
+      type: System.IFormatProvider
+    return:
+      type: System.Byte
+    content.vb: Function System.IConvertible.ToByte(provider As IFormatProvider) As Byte Implements IConvertible.ToByte
+  overload: System.Half.System#IConvertible#ToByte*
+  implements:
+  - System.IConvertible.ToByte(System.IFormatProvider)
+  nameWithType.vb: Half.System.IConvertible.ToByte(IFormatProvider)
+  name.vb: System.IConvertible.ToByte(IFormatProvider)
+- uid: System.Half.System#IConvertible#ToChar(System.IFormatProvider)
+  commentId: M:System.Half.System#IConvertible#ToChar(System.IFormatProvider)
+  id: System#IConvertible#ToChar(System.IFormatProvider)
+  isEii: true
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: IConvertible.ToChar(IFormatProvider)
+  nameWithType: Half.IConvertible.ToChar(IFormatProvider)
+  fullName: System.Half.System.IConvertible.ToChar(System.IFormatProvider)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: System.IConvertible.ToChar
+    path: Half.cs
+    startLine: 328
+  assemblies:
+  - NumericTypes
+  namespace: System
+  syntax:
+    content: char IConvertible.ToChar(IFormatProvider provider)
+    parameters:
+    - id: provider
+      type: System.IFormatProvider
+    return:
+      type: System.Char
+    content.vb: Function System.IConvertible.ToChar(provider As IFormatProvider) As Char Implements IConvertible.ToChar
+  overload: System.Half.System#IConvertible#ToChar*
+  implements:
+  - System.IConvertible.ToChar(System.IFormatProvider)
+  nameWithType.vb: Half.System.IConvertible.ToChar(IFormatProvider)
+  name.vb: System.IConvertible.ToChar(IFormatProvider)
+- uid: System.Half.System#IConvertible#ToDateTime(System.IFormatProvider)
+  commentId: M:System.Half.System#IConvertible#ToDateTime(System.IFormatProvider)
+  id: System#IConvertible#ToDateTime(System.IFormatProvider)
+  isEii: true
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: IConvertible.ToDateTime(IFormatProvider)
+  nameWithType: Half.IConvertible.ToDateTime(IFormatProvider)
+  fullName: System.Half.System.IConvertible.ToDateTime(System.IFormatProvider)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: System.IConvertible.ToDateTime
+    path: Half.cs
+    startLine: 331
+  assemblies:
+  - NumericTypes
+  namespace: System
+  syntax:
+    content: DateTime IConvertible.ToDateTime(IFormatProvider provider)
+    parameters:
+    - id: provider
+      type: System.IFormatProvider
+    return:
+      type: System.DateTime
+    content.vb: Function System.IConvertible.ToDateTime(provider As IFormatProvider) As Date Implements IConvertible.ToDateTime
+  overload: System.Half.System#IConvertible#ToDateTime*
+  implements:
+  - System.IConvertible.ToDateTime(System.IFormatProvider)
+  nameWithType.vb: Half.System.IConvertible.ToDateTime(IFormatProvider)
+  name.vb: System.IConvertible.ToDateTime(IFormatProvider)
+- uid: System.Half.System#IConvertible#ToDecimal(System.IFormatProvider)
+  commentId: M:System.Half.System#IConvertible#ToDecimal(System.IFormatProvider)
+  id: System#IConvertible#ToDecimal(System.IFormatProvider)
+  isEii: true
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: IConvertible.ToDecimal(IFormatProvider)
+  nameWithType: Half.IConvertible.ToDecimal(IFormatProvider)
+  fullName: System.Half.System.IConvertible.ToDecimal(System.IFormatProvider)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: System.IConvertible.ToDecimal
+    path: Half.cs
+    startLine: 334
+  assemblies:
+  - NumericTypes
+  namespace: System
+  syntax:
+    content: decimal IConvertible.ToDecimal(IFormatProvider provider)
+    parameters:
+    - id: provider
+      type: System.IFormatProvider
+    return:
+      type: System.Decimal
+    content.vb: Function System.IConvertible.ToDecimal(provider As IFormatProvider) As Decimal Implements IConvertible.ToDecimal
+  overload: System.Half.System#IConvertible#ToDecimal*
+  implements:
+  - System.IConvertible.ToDecimal(System.IFormatProvider)
+  nameWithType.vb: Half.System.IConvertible.ToDecimal(IFormatProvider)
+  name.vb: System.IConvertible.ToDecimal(IFormatProvider)
+- uid: System.Half.System#IConvertible#ToDouble(System.IFormatProvider)
+  commentId: M:System.Half.System#IConvertible#ToDouble(System.IFormatProvider)
+  id: System#IConvertible#ToDouble(System.IFormatProvider)
+  isEii: true
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: IConvertible.ToDouble(IFormatProvider)
+  nameWithType: Half.IConvertible.ToDouble(IFormatProvider)
+  fullName: System.Half.System.IConvertible.ToDouble(System.IFormatProvider)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: System.IConvertible.ToDouble
+    path: Half.cs
+    startLine: 337
+  assemblies:
+  - NumericTypes
+  namespace: System
+  syntax:
+    content: double IConvertible.ToDouble(IFormatProvider provider)
+    parameters:
+    - id: provider
+      type: System.IFormatProvider
+    return:
+      type: System.Double
+    content.vb: Function System.IConvertible.ToDouble(provider As IFormatProvider) As Double Implements IConvertible.ToDouble
+  overload: System.Half.System#IConvertible#ToDouble*
+  implements:
+  - System.IConvertible.ToDouble(System.IFormatProvider)
+  nameWithType.vb: Half.System.IConvertible.ToDouble(IFormatProvider)
+  name.vb: System.IConvertible.ToDouble(IFormatProvider)
+- uid: System.Half.System#IConvertible#ToInt16(System.IFormatProvider)
+  commentId: M:System.Half.System#IConvertible#ToInt16(System.IFormatProvider)
+  id: System#IConvertible#ToInt16(System.IFormatProvider)
+  isEii: true
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: IConvertible.ToInt16(IFormatProvider)
+  nameWithType: Half.IConvertible.ToInt16(IFormatProvider)
+  fullName: System.Half.System.IConvertible.ToInt16(System.IFormatProvider)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: System.IConvertible.ToInt16
+    path: Half.cs
+    startLine: 340
+  assemblies:
+  - NumericTypes
+  namespace: System
+  syntax:
+    content: short IConvertible.ToInt16(IFormatProvider provider)
+    parameters:
+    - id: provider
+      type: System.IFormatProvider
+    return:
+      type: System.Int16
+    content.vb: Function System.IConvertible.ToInt16(provider As IFormatProvider) As Short Implements IConvertible.ToInt16
+  overload: System.Half.System#IConvertible#ToInt16*
+  implements:
+  - System.IConvertible.ToInt16(System.IFormatProvider)
+  nameWithType.vb: Half.System.IConvertible.ToInt16(IFormatProvider)
+  name.vb: System.IConvertible.ToInt16(IFormatProvider)
+- uid: System.Half.System#IConvertible#ToInt32(System.IFormatProvider)
+  commentId: M:System.Half.System#IConvertible#ToInt32(System.IFormatProvider)
+  id: System#IConvertible#ToInt32(System.IFormatProvider)
+  isEii: true
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: IConvertible.ToInt32(IFormatProvider)
+  nameWithType: Half.IConvertible.ToInt32(IFormatProvider)
+  fullName: System.Half.System.IConvertible.ToInt32(System.IFormatProvider)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: System.IConvertible.ToInt32
+    path: Half.cs
+    startLine: 343
+  assemblies:
+  - NumericTypes
+  namespace: System
+  syntax:
+    content: int IConvertible.ToInt32(IFormatProvider provider)
+    parameters:
+    - id: provider
+      type: System.IFormatProvider
+    return:
+      type: System.Int32
+    content.vb: Function System.IConvertible.ToInt32(provider As IFormatProvider) As Integer Implements IConvertible.ToInt32
+  overload: System.Half.System#IConvertible#ToInt32*
+  implements:
+  - System.IConvertible.ToInt32(System.IFormatProvider)
+  nameWithType.vb: Half.System.IConvertible.ToInt32(IFormatProvider)
+  name.vb: System.IConvertible.ToInt32(IFormatProvider)
+- uid: System.Half.System#IConvertible#ToInt64(System.IFormatProvider)
+  commentId: M:System.Half.System#IConvertible#ToInt64(System.IFormatProvider)
+  id: System#IConvertible#ToInt64(System.IFormatProvider)
+  isEii: true
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: IConvertible.ToInt64(IFormatProvider)
+  nameWithType: Half.IConvertible.ToInt64(IFormatProvider)
+  fullName: System.Half.System.IConvertible.ToInt64(System.IFormatProvider)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: System.IConvertible.ToInt64
+    path: Half.cs
+    startLine: 346
+  assemblies:
+  - NumericTypes
+  namespace: System
+  syntax:
+    content: long IConvertible.ToInt64(IFormatProvider provider)
+    parameters:
+    - id: provider
+      type: System.IFormatProvider
+    return:
+      type: System.Int64
+    content.vb: Function System.IConvertible.ToInt64(provider As IFormatProvider) As Long Implements IConvertible.ToInt64
+  overload: System.Half.System#IConvertible#ToInt64*
+  implements:
+  - System.IConvertible.ToInt64(System.IFormatProvider)
+  nameWithType.vb: Half.System.IConvertible.ToInt64(IFormatProvider)
+  name.vb: System.IConvertible.ToInt64(IFormatProvider)
+- uid: System.Half.System#IConvertible#ToSByte(System.IFormatProvider)
+  commentId: M:System.Half.System#IConvertible#ToSByte(System.IFormatProvider)
+  id: System#IConvertible#ToSByte(System.IFormatProvider)
+  isEii: true
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: IConvertible.ToSByte(IFormatProvider)
+  nameWithType: Half.IConvertible.ToSByte(IFormatProvider)
+  fullName: System.Half.System.IConvertible.ToSByte(System.IFormatProvider)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: System.IConvertible.ToSByte
+    path: Half.cs
+    startLine: 349
+  assemblies:
+  - NumericTypes
+  namespace: System
+  syntax:
+    content: sbyte IConvertible.ToSByte(IFormatProvider provider)
+    parameters:
+    - id: provider
+      type: System.IFormatProvider
+    return:
+      type: System.SByte
+    content.vb: Function System.IConvertible.ToSByte(provider As IFormatProvider) As SByte Implements IConvertible.ToSByte
+  overload: System.Half.System#IConvertible#ToSByte*
+  implements:
+  - System.IConvertible.ToSByte(System.IFormatProvider)
+  nameWithType.vb: Half.System.IConvertible.ToSByte(IFormatProvider)
+  name.vb: System.IConvertible.ToSByte(IFormatProvider)
+- uid: System.Half.System#IConvertible#ToSingle(System.IFormatProvider)
+  commentId: M:System.Half.System#IConvertible#ToSingle(System.IFormatProvider)
+  id: System#IConvertible#ToSingle(System.IFormatProvider)
+  isEii: true
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: IConvertible.ToSingle(IFormatProvider)
+  nameWithType: Half.IConvertible.ToSingle(IFormatProvider)
+  fullName: System.Half.System.IConvertible.ToSingle(System.IFormatProvider)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: System.IConvertible.ToSingle
+    path: Half.cs
+    startLine: 352
+  assemblies:
+  - NumericTypes
+  namespace: System
+  syntax:
+    content: float IConvertible.ToSingle(IFormatProvider provider)
+    parameters:
+    - id: provider
+      type: System.IFormatProvider
+    return:
+      type: System.Single
+    content.vb: Function System.IConvertible.ToSingle(provider As IFormatProvider) As Single Implements IConvertible.ToSingle
+  overload: System.Half.System#IConvertible#ToSingle*
+  implements:
+  - System.IConvertible.ToSingle(System.IFormatProvider)
+  nameWithType.vb: Half.System.IConvertible.ToSingle(IFormatProvider)
+  name.vb: System.IConvertible.ToSingle(IFormatProvider)
+- uid: System.Half.System#IConvertible#ToString(System.IFormatProvider)
+  commentId: M:System.Half.System#IConvertible#ToString(System.IFormatProvider)
+  id: System#IConvertible#ToString(System.IFormatProvider)
+  isEii: true
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: IConvertible.ToString(IFormatProvider)
+  nameWithType: Half.IConvertible.ToString(IFormatProvider)
+  fullName: System.Half.System.IConvertible.ToString(System.IFormatProvider)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: System.IConvertible.ToString
+    path: Half.cs
+    startLine: 355
+  assemblies:
+  - NumericTypes
+  namespace: System
+  syntax:
+    content: string IConvertible.ToString(IFormatProvider provider)
+    parameters:
+    - id: provider
+      type: System.IFormatProvider
+    return:
+      type: System.String
+    content.vb: Function System.IConvertible.ToString(provider As IFormatProvider) As String Implements IConvertible.ToString
+  overload: System.Half.System#IConvertible#ToString*
+  implements:
+  - System.IConvertible.ToString(System.IFormatProvider)
+  nameWithType.vb: Half.System.IConvertible.ToString(IFormatProvider)
+  name.vb: System.IConvertible.ToString(IFormatProvider)
+- uid: System.Half.System#IConvertible#ToType(System.Type,System.IFormatProvider)
+  commentId: M:System.Half.System#IConvertible#ToType(System.Type,System.IFormatProvider)
+  id: System#IConvertible#ToType(System.Type,System.IFormatProvider)
+  isEii: true
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: IConvertible.ToType(Type, IFormatProvider)
+  nameWithType: Half.IConvertible.ToType(Type, IFormatProvider)
+  fullName: System.Half.System.IConvertible.ToType(System.Type, System.IFormatProvider)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: System.IConvertible.ToType
+    path: Half.cs
+    startLine: 358
+  assemblies:
+  - NumericTypes
+  namespace: System
+  syntax:
+    content: object IConvertible.ToType(Type conversionType, IFormatProvider provider)
+    parameters:
+    - id: conversionType
+      type: System.Type
+    - id: provider
+      type: System.IFormatProvider
+    return:
+      type: System.Object
+    content.vb: Function System.IConvertible.ToType(conversionType As Type, provider As IFormatProvider) As Object Implements IConvertible.ToType
+  overload: System.Half.System#IConvertible#ToType*
+  implements:
+  - System.IConvertible.ToType(System.Type,System.IFormatProvider)
+  nameWithType.vb: Half.System.IConvertible.ToType(Type, IFormatProvider)
+  name.vb: System.IConvertible.ToType(Type, IFormatProvider)
+- uid: System.Half.System#IConvertible#ToUInt16(System.IFormatProvider)
+  commentId: M:System.Half.System#IConvertible#ToUInt16(System.IFormatProvider)
+  id: System#IConvertible#ToUInt16(System.IFormatProvider)
+  isEii: true
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: IConvertible.ToUInt16(IFormatProvider)
+  nameWithType: Half.IConvertible.ToUInt16(IFormatProvider)
+  fullName: System.Half.System.IConvertible.ToUInt16(System.IFormatProvider)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: System.IConvertible.ToUInt16
+    path: Half.cs
+    startLine: 361
+  assemblies:
+  - NumericTypes
+  namespace: System
+  syntax:
+    content: ushort IConvertible.ToUInt16(IFormatProvider provider)
+    parameters:
+    - id: provider
+      type: System.IFormatProvider
+    return:
+      type: System.UInt16
+    content.vb: Function System.IConvertible.ToUInt16(provider As IFormatProvider) As UShort Implements IConvertible.ToUInt16
+  overload: System.Half.System#IConvertible#ToUInt16*
+  implements:
+  - System.IConvertible.ToUInt16(System.IFormatProvider)
+  nameWithType.vb: Half.System.IConvertible.ToUInt16(IFormatProvider)
+  name.vb: System.IConvertible.ToUInt16(IFormatProvider)
+- uid: System.Half.System#IConvertible#ToUInt32(System.IFormatProvider)
+  commentId: M:System.Half.System#IConvertible#ToUInt32(System.IFormatProvider)
+  id: System#IConvertible#ToUInt32(System.IFormatProvider)
+  isEii: true
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: IConvertible.ToUInt32(IFormatProvider)
+  nameWithType: Half.IConvertible.ToUInt32(IFormatProvider)
+  fullName: System.Half.System.IConvertible.ToUInt32(System.IFormatProvider)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: System.IConvertible.ToUInt32
+    path: Half.cs
+    startLine: 364
+  assemblies:
+  - NumericTypes
+  namespace: System
+  syntax:
+    content: uint IConvertible.ToUInt32(IFormatProvider provider)
+    parameters:
+    - id: provider
+      type: System.IFormatProvider
+    return:
+      type: System.UInt32
+    content.vb: Function System.IConvertible.ToUInt32(provider As IFormatProvider) As UInteger Implements IConvertible.ToUInt32
+  overload: System.Half.System#IConvertible#ToUInt32*
+  implements:
+  - System.IConvertible.ToUInt32(System.IFormatProvider)
+  nameWithType.vb: Half.System.IConvertible.ToUInt32(IFormatProvider)
+  name.vb: System.IConvertible.ToUInt32(IFormatProvider)
+- uid: System.Half.System#IConvertible#ToUInt64(System.IFormatProvider)
+  commentId: M:System.Half.System#IConvertible#ToUInt64(System.IFormatProvider)
+  id: System#IConvertible#ToUInt64(System.IFormatProvider)
+  isEii: true
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: IConvertible.ToUInt64(IFormatProvider)
+  nameWithType: Half.IConvertible.ToUInt64(IFormatProvider)
+  fullName: System.Half.System.IConvertible.ToUInt64(System.IFormatProvider)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: System.IConvertible.ToUInt64
+    path: Half.cs
+    startLine: 367
+  assemblies:
+  - NumericTypes
+  namespace: System
+  syntax:
+    content: ulong IConvertible.ToUInt64(IFormatProvider provider)
+    parameters:
+    - id: provider
+      type: System.IFormatProvider
+    return:
+      type: System.UInt64
+    content.vb: Function System.IConvertible.ToUInt64(provider As IFormatProvider) As ULong Implements IConvertible.ToUInt64
+  overload: System.Half.System#IConvertible#ToUInt64*
+  implements:
+  - System.IConvertible.ToUInt64(System.IFormatProvider)
+  nameWithType.vb: Half.System.IConvertible.ToUInt64(IFormatProvider)
+  name.vb: System.IConvertible.ToUInt64(IFormatProvider)
+- uid: System.Half.op_Inequality(System.Half,System.Half)
+  commentId: M:System.Half.op_Inequality(System.Half,System.Half)
+  id: op_Inequality(System.Half,System.Half)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Inequality(Half, Half)
+  nameWithType: Half.Inequality(Half, Half)
+  fullName: System.Half.Inequality(System.Half, System.Half)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_Inequality
+    path: Half.cs
+    startLine: 384
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nReturns a value indicating whether two instances of System.Half are not equal.\n"
+  example: []
+  syntax:
+    content: public static bool operator !=(Half left, Half right)
+    parameters:
+    - id: left
+      type: System.Half
+      description: A System.Half.
+    - id: right
+      type: System.Half
+      description: A System.Half.
+    return:
+      type: System.Boolean
+      description: true if half1 and half2 are not equal; otherwise, false.
+    content.vb: Public Shared Operator <>(left As Half, right As Half) As Boolean
+  overload: System.Half.op_Inequality*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: System.Half.op_LessThan(System.Half,System.Half)
+  commentId: M:System.Half.op_LessThan(System.Half,System.Half)
+  id: op_LessThan(System.Half,System.Half)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: LessThan(Half, Half)
+  nameWithType: Half.LessThan(Half, Half)
+  fullName: System.Half.LessThan(System.Half, System.Half)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_LessThan
+    path: Half.cs
+    startLine: 394
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nReturns a value indicating whether a specified System.Half is less than another specified System.Half.\n"
+  example: []
+  syntax:
+    content: public static bool operator <(Half left, Half right)
+    parameters:
+    - id: left
+      type: System.Half
+      description: A System.Half.
+    - id: right
+      type: System.Half
+      description: A System.Half.
+    return:
+      type: System.Boolean
+      description: true if half1 is less than half1; otherwise, false.
+    content.vb: Public Shared Operator <(left As Half, right As Half) As Boolean
+  overload: System.Half.op_LessThan*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: System.Half.op_LessThanOrEqual(System.Half,System.Half)
+  commentId: M:System.Half.op_LessThanOrEqual(System.Half,System.Half)
+  id: op_LessThanOrEqual(System.Half,System.Half)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: LessThanOrEqual(Half, Half)
+  nameWithType: Half.LessThanOrEqual(Half, Half)
+  fullName: System.Half.LessThanOrEqual(System.Half, System.Half)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_LessThanOrEqual
+    path: Half.cs
+    startLine: 404
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nReturns a value indicating whether a specified System.Half is less than or equal to another specified System.Half.\n"
+  example: []
+  syntax:
+    content: public static bool operator <=(Half left, Half right)
+    parameters:
+    - id: left
+      type: System.Half
+      description: A System.Half.
+    - id: right
+      type: System.Half
+      description: A System.Half.
+    return:
+      type: System.Boolean
+      description: true if half1 is less than or equal to half2; otherwise, false.
+    content.vb: Public Shared Operator <=(left As Half, right As Half) As Boolean
+  overload: System.Half.op_LessThanOrEqual*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: System.Half.op_Equality(System.Half,System.Half)
+  commentId: M:System.Half.op_Equality(System.Half,System.Half)
+  id: op_Equality(System.Half,System.Half)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Equality(Half, Half)
+  nameWithType: Half.Equality(Half, Half)
+  fullName: System.Half.Equality(System.Half, System.Half)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_Equality
+    path: Half.cs
+    startLine: 414
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nReturns a value indicating whether two instances of System.Half are equal.\n"
+  example: []
+  syntax:
+    content: public static bool operator ==(Half left, Half right)
+    parameters:
+    - id: left
+      type: System.Half
+      description: A System.Half.
+    - id: right
+      type: System.Half
+      description: A System.Half.
+    return:
+      type: System.Boolean
+      description: true if half1 and half2 are equal; otherwise, false.
+    content.vb: Public Shared Operator =(left As Half, right As Half) As Boolean
+  overload: System.Half.op_Equality*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: System.Half.op_GreaterThan(System.Half,System.Half)
+  commentId: M:System.Half.op_GreaterThan(System.Half,System.Half)
+  id: op_GreaterThan(System.Half,System.Half)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: GreaterThan(Half, Half)
+  nameWithType: Half.GreaterThan(Half, Half)
+  fullName: System.Half.GreaterThan(System.Half, System.Half)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_GreaterThan
+    path: Half.cs
+    startLine: 424
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nReturns a value indicating whether a specified System.Half is greater than another specified System.Half.\n"
+  example: []
+  syntax:
+    content: public static bool operator>(Half left, Half right)
+    parameters:
+    - id: left
+      type: System.Half
+      description: A System.Half.
+    - id: right
+      type: System.Half
+      description: A System.Half.
+    return:
+      type: System.Boolean
+      description: true if half1 is greater than half2; otherwise, false.
+    content.vb: Public Shared Operator>(left As Half, right As Half) As Boolean
+  overload: System.Half.op_GreaterThan*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: System.Half.op_GreaterThanOrEqual(System.Half,System.Half)
+  commentId: M:System.Half.op_GreaterThanOrEqual(System.Half,System.Half)
+  id: op_GreaterThanOrEqual(System.Half,System.Half)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: GreaterThanOrEqual(Half, Half)
+  nameWithType: Half.GreaterThanOrEqual(Half, Half)
+  fullName: System.Half.GreaterThanOrEqual(System.Half, System.Half)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_GreaterThanOrEqual
+    path: Half.cs
+    startLine: 434
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nReturns a value indicating whether a specified System.Half is greater than or equal to another specified System.Half.\n"
+  example: []
+  syntax:
+    content: public static bool operator >=(Half left, Half right)
+    parameters:
+    - id: left
+      type: System.Half
+      description: A System.Half.
+    - id: right
+      type: System.Half
+      description: A System.Half.
+    return:
+      type: System.Boolean
+      description: true if half1 is greater than or equal to half2; otherwise, false.
+    content.vb: Public Shared Operator >=(left As Half, right As Half) As Boolean
+  overload: System.Half.op_GreaterThanOrEqual*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: System.Half.op_Explicit(System.Half)~System.Byte
+  commentId: M:System.Half.op_Explicit(System.Half)~System.Byte
+  id: op_Explicit(System.Half)~System.Byte
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Explicit(Half to Byte)
+  nameWithType: Half.Explicit(Half to Byte)
+  fullName: System.Half.Explicit(System.Half to System.Byte)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_Explicit
+    path: Half.cs
+    startLine: 449
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nConverts a System.Half to an 8-bit unsigned integer.\n"
+  example: []
+  syntax:
+    content: public static explicit operator byte (Half value)
+    parameters:
+    - id: value
+      type: System.Half
+      description: A System.Half to convert.
+    return:
+      type: System.Byte
+      description: An 8-bit unsigned integer that represents the converted System.Half.
+    content.vb: Public Shared Narrowing Operator CType(value As Half) As Byte
+  overload: System.Half.op_Explicit*
+  nameWithType.vb: Half.Narrowing(Half to Byte)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Half.Narrowing(System.Half to System.Byte)
+  name.vb: Narrowing(Half to Byte)
+- uid: System.Half.op_Explicit(System.Half)~System.Char
+  commentId: M:System.Half.op_Explicit(System.Half)~System.Char
+  id: op_Explicit(System.Half)~System.Char
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Explicit(Half to Char)
+  nameWithType: Half.Explicit(Half to Char)
+  fullName: System.Half.Explicit(System.Half to System.Char)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_Explicit
+    path: Half.cs
+    startLine: 457
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nConverts a System.Half to a Unicode character.\n"
+  example: []
+  syntax:
+    content: public static explicit operator char (Half value)
+    parameters:
+    - id: value
+      type: System.Half
+      description: A System.Half to convert.
+    return:
+      type: System.Char
+      description: A Unicode character that represents the converted System.Half.
+    content.vb: Public Shared Narrowing Operator CType(value As Half) As Char
+  overload: System.Half.op_Explicit*
+  nameWithType.vb: Half.Narrowing(Half to Char)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Half.Narrowing(System.Half to System.Char)
+  name.vb: Narrowing(Half to Char)
+- uid: System.Half.op_Explicit(System.Half)~System.Decimal
+  commentId: M:System.Half.op_Explicit(System.Half)~System.Decimal
+  id: op_Explicit(System.Half)~System.Decimal
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Explicit(Half to Decimal)
+  nameWithType: Half.Explicit(Half to Decimal)
+  fullName: System.Half.Explicit(System.Half to System.Decimal)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_Explicit
+    path: Half.cs
+    startLine: 465
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nConverts a System.Half to a decimal number.\n"
+  example: []
+  syntax:
+    content: public static explicit operator decimal (Half value)
+    parameters:
+    - id: value
+      type: System.Half
+      description: A System.Half to convert.
+    return:
+      type: System.Decimal
+      description: A decimal number that represents the converted System.Half.
+    content.vb: Public Shared Narrowing Operator CType(value As Half) As Decimal
+  overload: System.Half.op_Explicit*
+  nameWithType.vb: Half.Narrowing(Half to Decimal)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Half.Narrowing(System.Half to System.Decimal)
+  name.vb: Narrowing(Half to Decimal)
+- uid: System.Half.op_Explicit(System.Single)~System.Half
+  commentId: M:System.Half.op_Explicit(System.Single)~System.Half
+  id: op_Explicit(System.Single)~System.Half
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Explicit(Single to Half)
+  nameWithType: Half.Explicit(Single to Half)
+  fullName: System.Half.Explicit(System.Single to System.Half)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_Explicit
+    path: Half.cs
+    startLine: 473
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nConverts a single-precision floating-point number to a System.Half.\n"
+  example: []
+  syntax:
+    content: public static explicit operator Half(float value)
+    parameters:
+    - id: value
+      type: System.Single
+      description: A single-precision floating-point number.
+    return:
+      type: System.Half
+      description: A System.Half that represents the converted single-precision floating point number.
+    content.vb: Public Shared Narrowing Operator CType(value As Single) As Half
+  overload: System.Half.op_Explicit*
+  nameWithType.vb: Half.Narrowing(Single to Half)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Half.Narrowing(System.Single to System.Half)
+  name.vb: Narrowing(Single to Half)
+- uid: System.Half.op_Explicit(System.Double)~System.Half
+  commentId: M:System.Half.op_Explicit(System.Double)~System.Half
+  id: op_Explicit(System.Double)~System.Half
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Explicit(Double to Half)
+  nameWithType: Half.Explicit(Double to Half)
+  fullName: System.Half.Explicit(System.Double to System.Half)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_Explicit
+    path: Half.cs
+    startLine: 481
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nConverts a double-precision floating-point number to a System.Half.\n"
+  example: []
+  syntax:
+    content: public static explicit operator Half(double value)
+    parameters:
+    - id: value
+      type: System.Double
+      description: A double-precision floating-point number.
+    return:
+      type: System.Half
+      description: A System.Half that represents the converted double-precision floating point number.
+    content.vb: Public Shared Narrowing Operator CType(value As Double) As Half
+  overload: System.Half.op_Explicit*
+  nameWithType.vb: Half.Narrowing(Double to Half)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Half.Narrowing(System.Double to System.Half)
+  name.vb: Narrowing(Double to Half)
+- uid: System.Half.op_Explicit(System.Decimal)~System.Half
+  commentId: M:System.Half.op_Explicit(System.Decimal)~System.Half
+  id: op_Explicit(System.Decimal)~System.Half
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Explicit(Decimal to Half)
+  nameWithType: Half.Explicit(Decimal to Half)
+  fullName: System.Half.Explicit(System.Decimal to System.Half)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_Explicit
+    path: Half.cs
+    startLine: 489
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nConverts a decimal number to a System.Half.\n"
+  example: []
+  syntax:
+    content: public static explicit operator Half(decimal value)
+    parameters:
+    - id: value
+      type: System.Decimal
+      description: decimal number
+    return:
+      type: System.Half
+      description: A System.Half that represents the converted decimal number.
+    content.vb: Public Shared Narrowing Operator CType(value As Decimal) As Half
+  overload: System.Half.op_Explicit*
+  nameWithType.vb: Half.Narrowing(Decimal to Half)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Half.Narrowing(System.Decimal to System.Half)
+  name.vb: Narrowing(Decimal to Half)
+- uid: System.Half.op_Explicit(System.Half)~System.Int32
+  commentId: M:System.Half.op_Explicit(System.Half)~System.Int32
+  id: op_Explicit(System.Half)~System.Int32
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Explicit(Half to Int32)
+  nameWithType: Half.Explicit(Half to Int32)
+  fullName: System.Half.Explicit(System.Half to System.Int32)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_Explicit
+    path: Half.cs
+    startLine: 497
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nConverts a System.Half to a 32-bit signed integer.\n"
+  example: []
+  syntax:
+    content: public static explicit operator int (Half value)
+    parameters:
+    - id: value
+      type: System.Half
+      description: A System.Half to convert.
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that represents the converted System.Half.
+    content.vb: Public Shared Narrowing Operator CType(value As Half) As Integer
+  overload: System.Half.op_Explicit*
+  nameWithType.vb: Half.Narrowing(Half to Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Half.Narrowing(System.Half to System.Int32)
+  name.vb: Narrowing(Half to Int32)
+- uid: System.Half.op_Explicit(System.Half)~System.Int64
+  commentId: M:System.Half.op_Explicit(System.Half)~System.Int64
+  id: op_Explicit(System.Half)~System.Int64
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Explicit(Half to Int64)
+  nameWithType: Half.Explicit(Half to Int64)
+  fullName: System.Half.Explicit(System.Half to System.Int64)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_Explicit
+    path: Half.cs
+    startLine: 505
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nConverts a System.Half to a 64-bit signed integer.\n"
+  example: []
+  syntax:
+    content: public static explicit operator long (Half value)
+    parameters:
+    - id: value
+      type: System.Half
+      description: A System.Half to convert.
+    return:
+      type: System.Int64
+      description: A 64-bit signed integer that represents the converted System.Half.
+    content.vb: Public Shared Narrowing Operator CType(value As Half) As Long
+  overload: System.Half.op_Explicit*
+  nameWithType.vb: Half.Narrowing(Half to Int64)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Half.Narrowing(System.Half to System.Int64)
+  name.vb: Narrowing(Half to Int64)
+- uid: System.Half.op_Explicit(System.Half)~System.SByte
+  commentId: M:System.Half.op_Explicit(System.Half)~System.SByte
+  id: op_Explicit(System.Half)~System.SByte
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Explicit(Half to SByte)
+  nameWithType: Half.Explicit(Half to SByte)
+  fullName: System.Half.Explicit(System.Half to System.SByte)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_Explicit
+    path: Half.cs
+    startLine: 513
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nConverts a System.Half to an 8-bit signed integer.\n"
+  example: []
+  syntax:
+    content: public static explicit operator sbyte (Half value)
+    parameters:
+    - id: value
+      type: System.Half
+      description: A System.Half to convert.
+    return:
+      type: System.SByte
+      description: An 8-bit signed integer that represents the converted System.Half.
+    content.vb: Public Shared Narrowing Operator CType(value As Half) As SByte
+  overload: System.Half.op_Explicit*
+  nameWithType.vb: Half.Narrowing(Half to SByte)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Half.Narrowing(System.Half to System.SByte)
+  name.vb: Narrowing(Half to SByte)
+- uid: System.Half.op_Explicit(System.Half)~System.Int16
+  commentId: M:System.Half.op_Explicit(System.Half)~System.Int16
+  id: op_Explicit(System.Half)~System.Int16
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Explicit(Half to Int16)
+  nameWithType: Half.Explicit(Half to Int16)
+  fullName: System.Half.Explicit(System.Half to System.Int16)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_Explicit
+    path: Half.cs
+    startLine: 521
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nConverts a System.Half to a 16-bit signed integer.\n"
+  example: []
+  syntax:
+    content: public static explicit operator short (Half value)
+    parameters:
+    - id: value
+      type: System.Half
+      description: A System.Half to convert.
+    return:
+      type: System.Int16
+      description: A 16-bit signed integer that represents the converted System.Half.
+    content.vb: Public Shared Narrowing Operator CType(value As Half) As Short
+  overload: System.Half.op_Explicit*
+  nameWithType.vb: Half.Narrowing(Half to Int16)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Half.Narrowing(System.Half to System.Int16)
+  name.vb: Narrowing(Half to Int16)
+- uid: System.Half.op_Explicit(System.Half)~System.UInt32
+  commentId: M:System.Half.op_Explicit(System.Half)~System.UInt32
+  id: op_Explicit(System.Half)~System.UInt32
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Explicit(Half to UInt32)
+  nameWithType: Half.Explicit(Half to UInt32)
+  fullName: System.Half.Explicit(System.Half to System.UInt32)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_Explicit
+    path: Half.cs
+    startLine: 529
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nConverts a System.Half to a 32-bit unsigned integer.\n"
+  example: []
+  syntax:
+    content: public static explicit operator uint (Half value)
+    parameters:
+    - id: value
+      type: System.Half
+      description: A System.Half to convert.
+    return:
+      type: System.UInt32
+      description: A 32-bit unsigned integer that represents the converted System.Half.
+    content.vb: Public Shared Narrowing Operator CType(value As Half) As UInteger
+  overload: System.Half.op_Explicit*
+  nameWithType.vb: Half.Narrowing(Half to UInt32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Half.Narrowing(System.Half to System.UInt32)
+  name.vb: Narrowing(Half to UInt32)
+- uid: System.Half.op_Explicit(System.Half)~System.UInt64
+  commentId: M:System.Half.op_Explicit(System.Half)~System.UInt64
+  id: op_Explicit(System.Half)~System.UInt64
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Explicit(Half to UInt64)
+  nameWithType: Half.Explicit(Half to UInt64)
+  fullName: System.Half.Explicit(System.Half to System.UInt64)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_Explicit
+    path: Half.cs
+    startLine: 537
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nConverts a System.Half to a 64-bit unsigned integer.\n"
+  example: []
+  syntax:
+    content: public static explicit operator ulong (Half value)
+    parameters:
+    - id: value
+      type: System.Half
+      description: A System.Half to convert.
+    return:
+      type: System.UInt64
+      description: A 64-bit unsigned integer that represents the converted System.Half.
+    content.vb: Public Shared Narrowing Operator CType(value As Half) As ULong
+  overload: System.Half.op_Explicit*
+  nameWithType.vb: Half.Narrowing(Half to UInt64)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Half.Narrowing(System.Half to System.UInt64)
+  name.vb: Narrowing(Half to UInt64)
+- uid: System.Half.op_Explicit(System.Half)~System.UInt16
+  commentId: M:System.Half.op_Explicit(System.Half)~System.UInt16
+  id: op_Explicit(System.Half)~System.UInt16
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Explicit(Half to UInt16)
+  nameWithType: Half.Explicit(Half to UInt16)
+  fullName: System.Half.Explicit(System.Half to System.UInt16)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_Explicit
+    path: Half.cs
+    startLine: 545
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nConverts a System.Half to a 16-bit unsigned integer.\n"
+  example: []
+  syntax:
+    content: public static explicit operator ushort (Half value)
+    parameters:
+    - id: value
+      type: System.Half
+      description: A System.Half to convert.
+    return:
+      type: System.UInt16
+      description: A 16-bit unsigned integer that represents the converted System.Half.
+    content.vb: Public Shared Narrowing Operator CType(value As Half) As UShort
+  overload: System.Half.op_Explicit*
+  nameWithType.vb: Half.Narrowing(Half to UInt16)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Half.Narrowing(System.Half to System.UInt16)
+  name.vb: Narrowing(Half to UInt16)
+- uid: System.Half.op_Implicit(System.Half)~System.Double
+  commentId: M:System.Half.op_Implicit(System.Half)~System.Double
+  id: op_Implicit(System.Half)~System.Double
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Implicit(Half to Double)
+  nameWithType: Half.Implicit(Half to Double)
+  fullName: System.Half.Implicit(System.Half to System.Double)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_Implicit
+    path: Half.cs
+    startLine: 557
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nConverts a System.Half to a double-precision floating-point number.\n"
+  example: []
+  syntax:
+    content: public static implicit operator double (Half value)
+    parameters:
+    - id: value
+      type: System.Half
+      description: A System.Half to convert.
+    return:
+      type: System.Double
+      description: A double-precision floating-point number that represents the converted System.Half.
+    content.vb: Public Shared Widening Operator CType(value As Half) As Double
+  overload: System.Half.op_Implicit*
+  nameWithType.vb: Half.Widening(Half to Double)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Half.Widening(System.Half to System.Double)
+  name.vb: Widening(Half to Double)
+- uid: System.Half.op_Implicit(System.Half)~System.Single
+  commentId: M:System.Half.op_Implicit(System.Half)~System.Single
+  id: op_Implicit(System.Half)~System.Single
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Implicit(Half to Single)
+  nameWithType: Half.Implicit(Half to Single)
+  fullName: System.Half.Implicit(System.Half to System.Single)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_Implicit
+    path: Half.cs
+    startLine: 565
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nConverts a System.Half to a single-precision floating-point number.\n"
+  example: []
+  syntax:
+    content: public static implicit operator float (Half value)
+    parameters:
+    - id: value
+      type: System.Half
+      description: A System.Half to convert.
+    return:
+      type: System.Single
+      description: A single-precision floating-point number that represents the converted System.Half.
+    content.vb: Public Shared Widening Operator CType(value As Half) As Single
+  overload: System.Half.op_Implicit*
+  nameWithType.vb: Half.Widening(Half to Single)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Half.Widening(System.Half to System.Single)
+  name.vb: Widening(Half to Single)
+- uid: System.Half.op_Implicit(System.Byte)~System.Half
+  commentId: M:System.Half.op_Implicit(System.Byte)~System.Half
+  id: op_Implicit(System.Byte)~System.Half
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Implicit(Byte to Half)
+  nameWithType: Half.Implicit(Byte to Half)
+  fullName: System.Half.Implicit(System.Byte to System.Half)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_Implicit
+    path: Half.cs
+    startLine: 573
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nConverts an 8-bit unsigned integer to a System.Half.\n"
+  example: []
+  syntax:
+    content: public static implicit operator Half(byte value)
+    parameters:
+    - id: value
+      type: System.Byte
+      description: An 8-bit unsigned integer.
+    return:
+      type: System.Half
+      description: A System.Half that represents the converted 8-bit unsigned integer.
+    content.vb: Public Shared Widening Operator CType(value As Byte) As Half
+  overload: System.Half.op_Implicit*
+  nameWithType.vb: Half.Widening(Byte to Half)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Half.Widening(System.Byte to System.Half)
+  name.vb: Widening(Byte to Half)
+- uid: System.Half.op_Implicit(System.SByte)~System.Half
+  commentId: M:System.Half.op_Implicit(System.SByte)~System.Half
+  id: op_Implicit(System.SByte)~System.Half
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Implicit(SByte to Half)
+  nameWithType: Half.Implicit(SByte to Half)
+  fullName: System.Half.Implicit(System.SByte to System.Half)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_Implicit
+    path: Half.cs
+    startLine: 581
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nConverts an 8-bit signed integer to a System.Half.\n"
+  example: []
+  syntax:
+    content: public static implicit operator Half(sbyte value)
+    parameters:
+    - id: value
+      type: System.SByte
+      description: An 8-bit signed integer.
+    return:
+      type: System.Half
+      description: A System.Half that represents the converted 8-bit signed integer.
+    content.vb: Public Shared Widening Operator CType(value As SByte) As Half
+  overload: System.Half.op_Implicit*
+  nameWithType.vb: Half.Widening(SByte to Half)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Half.Widening(System.SByte to System.Half)
+  name.vb: Widening(SByte to Half)
+- uid: System.Half.op_Implicit(System.Char)~System.Half
+  commentId: M:System.Half.op_Implicit(System.Char)~System.Half
+  id: op_Implicit(System.Char)~System.Half
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Implicit(Char to Half)
+  nameWithType: Half.Implicit(Char to Half)
+  fullName: System.Half.Implicit(System.Char to System.Half)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_Implicit
+    path: Half.cs
+    startLine: 589
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nConverts a Unicode character to a System.Half.\n"
+  example: []
+  syntax:
+    content: public static implicit operator Half(char value)
+    parameters:
+    - id: value
+      type: System.Char
+      description: A Unicode character.
+    return:
+      type: System.Half
+      description: A System.Half that represents the converted Unicode character.
+    content.vb: Public Shared Widening Operator CType(value As Char) As Half
+  overload: System.Half.op_Implicit*
+  nameWithType.vb: Half.Widening(Char to Half)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Half.Widening(System.Char to System.Half)
+  name.vb: Widening(Char to Half)
+- uid: System.Half.op_Implicit(System.Int16)~System.Half
+  commentId: M:System.Half.op_Implicit(System.Int16)~System.Half
+  id: op_Implicit(System.Int16)~System.Half
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Implicit(Int16 to Half)
+  nameWithType: Half.Implicit(Int16 to Half)
+  fullName: System.Half.Implicit(System.Int16 to System.Half)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_Implicit
+    path: Half.cs
+    startLine: 597
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nConverts a 16-bit signed integer to a System.Half.\n"
+  example: []
+  syntax:
+    content: public static implicit operator Half(short value)
+    parameters:
+    - id: value
+      type: System.Int16
+      description: A 16-bit signed integer.
+    return:
+      type: System.Half
+      description: A System.Half that represents the converted 16-bit signed integer.
+    content.vb: Public Shared Widening Operator CType(value As Short) As Half
+  overload: System.Half.op_Implicit*
+  nameWithType.vb: Half.Widening(Int16 to Half)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Half.Widening(System.Int16 to System.Half)
+  name.vb: Widening(Int16 to Half)
+- uid: System.Half.op_Implicit(System.UInt16)~System.Half
+  commentId: M:System.Half.op_Implicit(System.UInt16)~System.Half
+  id: op_Implicit(System.UInt16)~System.Half
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Implicit(UInt16 to Half)
+  nameWithType: Half.Implicit(UInt16 to Half)
+  fullName: System.Half.Implicit(System.UInt16 to System.Half)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_Implicit
+    path: Half.cs
+    startLine: 605
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nConverts a 16-bit unsigned integer to a System.Half.\n"
+  example: []
+  syntax:
+    content: public static implicit operator Half(ushort value)
+    parameters:
+    - id: value
+      type: System.UInt16
+      description: A 16-bit unsigned integer.
+    return:
+      type: System.Half
+      description: A System.Half that represents the converted 16-bit unsigned integer.
+    content.vb: Public Shared Widening Operator CType(value As UShort) As Half
+  overload: System.Half.op_Implicit*
+  nameWithType.vb: Half.Widening(UInt16 to Half)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Half.Widening(System.UInt16 to System.Half)
+  name.vb: Widening(UInt16 to Half)
+- uid: System.Half.op_Implicit(System.Int32)~System.Half
+  commentId: M:System.Half.op_Implicit(System.Int32)~System.Half
+  id: op_Implicit(System.Int32)~System.Half
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Implicit(Int32 to Half)
+  nameWithType: Half.Implicit(Int32 to Half)
+  fullName: System.Half.Implicit(System.Int32 to System.Half)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_Implicit
+    path: Half.cs
+    startLine: 613
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nConverts a 32-bit signed integer to a System.Half.\n"
+  example: []
+  syntax:
+    content: public static implicit operator Half(int value)
+    parameters:
+    - id: value
+      type: System.Int32
+      description: A 32-bit signed integer.
+    return:
+      type: System.Half
+      description: A System.Half that represents the converted 32-bit signed integer.
+    content.vb: Public Shared Widening Operator CType(value As Integer) As Half
+  overload: System.Half.op_Implicit*
+  nameWithType.vb: Half.Widening(Int32 to Half)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Half.Widening(System.Int32 to System.Half)
+  name.vb: Widening(Int32 to Half)
+- uid: System.Half.op_Implicit(System.UInt32)~System.Half
+  commentId: M:System.Half.op_Implicit(System.UInt32)~System.Half
+  id: op_Implicit(System.UInt32)~System.Half
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Implicit(UInt32 to Half)
+  nameWithType: Half.Implicit(UInt32 to Half)
+  fullName: System.Half.Implicit(System.UInt32 to System.Half)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_Implicit
+    path: Half.cs
+    startLine: 621
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nConverts a 32-bit unsigned integer to a System.Half.\n"
+  example: []
+  syntax:
+    content: public static implicit operator Half(uint value)
+    parameters:
+    - id: value
+      type: System.UInt32
+      description: A 32-bit unsigned integer.
+    return:
+      type: System.Half
+      description: A System.Half that represents the converted 32-bit unsigned integer.
+    content.vb: Public Shared Widening Operator CType(value As UInteger) As Half
+  overload: System.Half.op_Implicit*
+  nameWithType.vb: Half.Widening(UInt32 to Half)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Half.Widening(System.UInt32 to System.Half)
+  name.vb: Widening(UInt32 to Half)
+- uid: System.Half.op_Implicit(System.Int64)~System.Half
+  commentId: M:System.Half.op_Implicit(System.Int64)~System.Half
+  id: op_Implicit(System.Int64)~System.Half
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Implicit(Int64 to Half)
+  nameWithType: Half.Implicit(Int64 to Half)
+  fullName: System.Half.Implicit(System.Int64 to System.Half)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_Implicit
+    path: Half.cs
+    startLine: 629
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nConverts a 64-bit signed integer to a System.Half.\n"
+  example: []
+  syntax:
+    content: public static implicit operator Half(long value)
+    parameters:
+    - id: value
+      type: System.Int64
+      description: A 64-bit signed integer.
+    return:
+      type: System.Half
+      description: A System.Half that represents the converted 64-bit signed integer.
+    content.vb: Public Shared Widening Operator CType(value As Long) As Half
+  overload: System.Half.op_Implicit*
+  nameWithType.vb: Half.Widening(Int64 to Half)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Half.Widening(System.Int64 to System.Half)
+  name.vb: Widening(Int64 to Half)
+- uid: System.Half.op_Implicit(System.UInt64)~System.Half
+  commentId: M:System.Half.op_Implicit(System.UInt64)~System.Half
+  id: op_Implicit(System.UInt64)~System.Half
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Implicit(UInt64 to Half)
+  nameWithType: Half.Implicit(UInt64 to Half)
+  fullName: System.Half.Implicit(System.UInt64 to System.Half)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_Implicit
+    path: Half.cs
+    startLine: 637
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nConverts a 64-bit unsigned integer to a System.Half.\n"
+  example: []
+  syntax:
+    content: public static implicit operator Half(ulong value)
+    parameters:
+    - id: value
+      type: System.UInt64
+      description: A 64-bit unsigned integer.
+    return:
+      type: System.Half
+      description: A System.Half that represents the converted 64-bit unsigned integer.
+    content.vb: Public Shared Widening Operator CType(value As ULong) As Half
+  overload: System.Half.op_Implicit*
+  nameWithType.vb: Half.Widening(UInt64 to Half)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Half.Widening(System.UInt64 to System.Half)
+  name.vb: Widening(UInt64 to Half)
+- uid: System.Half.op_Exponent(System.Half,System.Half)
+  commentId: M:System.Half.op_Exponent(System.Half,System.Half)
+  id: op_Exponent(System.Half,System.Half)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: op_Exponent(Half, Half)
+  nameWithType: Half.op_Exponent(Half, Half)
+  fullName: System.Half.op_Exponent(System.Half, System.Half)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_Exponent
+    path: Half.cs
+    startLine: 652
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static double op_Exponent(Half left, Half right)
+    parameters:
+    - id: left
+      type: System.Half
+      description: ''
+    - id: right
+      type: System.Half
+      description: ''
+    return:
+      type: System.Double
+      description: ''
+    content.vb: Public Shared Function op_Exponent(left As Half, right As Half) As Double
+  overload: System.Half.op_Exponent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: System.Half.op_UnaryNegation(System.Half)
+  commentId: M:System.Half.op_UnaryNegation(System.Half)
+  id: op_UnaryNegation(System.Half)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: UnaryNegation(Half)
+  nameWithType: Half.UnaryNegation(Half)
+  fullName: System.Half.UnaryNegation(System.Half)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_UnaryNegation
+    path: Half.cs
+    startLine: 665
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nNegates the value of the specified System.Half operand.\n"
+  example: []
+  syntax:
+    content: public static Half operator -(Half half)
+    parameters:
+    - id: half
+      type: System.Half
+      description: The System.Half operand.
+    return:
+      type: System.Half
+      description: The result of half multiplied by negative one (-1).
+    content.vb: Public Shared Operator -(half As Half) As Half
+  overload: System.Half.op_UnaryNegation*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: System.Half.op_Subtraction(System.Half,System.Half)
+  commentId: M:System.Half.op_Subtraction(System.Half,System.Half)
+  id: op_Subtraction(System.Half,System.Half)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Subtraction(Half, Half)
+  nameWithType: Half.Subtraction(Half, Half)
+  fullName: System.Half.Subtraction(System.Half, System.Half)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_Subtraction
+    path: Half.cs
+    startLine: 674
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nSubtracts two specified System.Half values.\n"
+  example: []
+  syntax:
+    content: public static Half operator -(Half left, Half right)
+    parameters:
+    - id: left
+      type: System.Half
+      description: A System.Half.
+    - id: right
+      type: System.Half
+      description: A System.Half.
+    return:
+      type: System.Half
+      description: The System.Half result of subtracting half1 and half2.
+    content.vb: Public Shared Operator -(left As Half, right As Half) As Half
+  overload: System.Half.op_Subtraction*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: System.Half.op_Decrement(System.Half)
+  commentId: M:System.Half.op_Decrement(System.Half)
+  id: op_Decrement(System.Half)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Decrement(Half)
+  nameWithType: Half.Decrement(Half)
+  fullName: System.Half.Decrement(System.Half)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_Decrement
+    path: Half.cs
+    startLine: 682
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nDecrements the System.Half operand by one.\n"
+  example: []
+  syntax:
+    content: public static Half operator --(Half half)
+    parameters:
+    - id: half
+      type: System.Half
+      description: The System.Half operand.
+    return:
+      type: System.Half
+      description: The value of half decremented by 1.
+    content.vb: VB cannot support this operator.
+  overload: System.Half.op_Decrement*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: System.Half.op_Modulus(System.Half,System.Half)
+  commentId: M:System.Half.op_Modulus(System.Half,System.Half)
+  id: op_Modulus(System.Half,System.Half)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Modulus(Half, Half)
+  nameWithType: Half.Modulus(Half, Half)
+  fullName: System.Half.Modulus(System.Half, System.Half)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_Modulus
+    path: Half.cs
+    startLine: 691
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static Half operator %(Half left, Half right)
+    parameters:
+    - id: left
+      type: System.Half
+      description: ''
+    - id: right
+      type: System.Half
+      description: ''
+    return:
+      type: System.Half
+      description: ''
+    content.vb: Public Shared Operator Mod(left As Half, right As Half) As Half
+  overload: System.Half.op_Modulus*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: System.Half.op_Multiply(System.Half,System.Half)
+  commentId: M:System.Half.op_Multiply(System.Half,System.Half)
+  id: op_Multiply(System.Half,System.Half)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Multiply(Half, Half)
+  nameWithType: Half.Multiply(Half, Half)
+  fullName: System.Half.Multiply(System.Half, System.Half)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_Multiply
+    path: Half.cs
+    startLine: 701
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nMultiplies two specified System.Half values.\n"
+  example: []
+  syntax:
+    content: public static Half operator *(Half left, Half right)
+    parameters:
+    - id: left
+      type: System.Half
+      description: A System.Half.
+    - id: right
+      type: System.Half
+      description: A System.Half.
+    return:
+      type: System.Half
+      description: The System.Half result of multiplying half1 by half2.
+    content.vb: Public Shared Operator *(left As Half, right As Half) As Half
+  overload: System.Half.op_Multiply*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: System.Half.op_Division(System.Half,System.Half)
+  commentId: M:System.Half.op_Division(System.Half,System.Half)
+  id: op_Division(System.Half,System.Half)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Division(Half, Half)
+  nameWithType: Half.Division(Half, Half)
+  fullName: System.Half.Division(System.Half, System.Half)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_Division
+    path: Half.cs
+    startLine: 710
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nDivides two specified System.Half values.\n"
+  example: []
+  syntax:
+    content: public static Half operator /(Half left, Half right)
+    parameters:
+    - id: left
+      type: System.Half
+      description: A System.Half (the dividend).
+    - id: right
+      type: System.Half
+      description: A System.Half (the divisor).
+    return:
+      type: System.Half
+      description: The System.Half result of half1 by half2.
+    content.vb: Public Shared Operator /(left As Half, right As Half) As Half
+  overload: System.Half.op_Division*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: System.Half.op_UnaryPlus(System.Half)
+  commentId: M:System.Half.op_UnaryPlus(System.Half)
+  id: op_UnaryPlus(System.Half)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: UnaryPlus(Half)
+  nameWithType: Half.UnaryPlus(Half)
+  fullName: System.Half.UnaryPlus(System.Half)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_UnaryPlus
+    path: Half.cs
+    startLine: 718
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nReturns the value of the System.Half operand (the sign of the operand is unchanged).\n"
+  example: []
+  syntax:
+    content: public static Half operator +(Half half)
+    parameters:
+    - id: half
+      type: System.Half
+      description: The System.Half operand.
+    return:
+      type: System.Half
+      description: The value of the operand, half.
+    content.vb: Public Shared Operator +(half As Half) As Half
+  overload: System.Half.op_UnaryPlus*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: System.Half.op_Addition(System.Half,System.Half)
+  commentId: M:System.Half.op_Addition(System.Half,System.Half)
+  id: op_Addition(System.Half,System.Half)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Addition(Half, Half)
+  nameWithType: Half.Addition(Half, Half)
+  fullName: System.Half.Addition(System.Half, System.Half)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_Addition
+    path: Half.cs
+    startLine: 727
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nAdds two specified System.Half values.\n"
+  example: []
+  syntax:
+    content: public static Half operator +(Half left, Half right)
+    parameters:
+    - id: left
+      type: System.Half
+      description: A System.Half.
+    - id: right
+      type: System.Half
+      description: A System.Half.
+    return:
+      type: System.Half
+      description: The System.Half result of adding half1 and half2.
+    content.vb: Public Shared Operator +(left As Half, right As Half) As Half
+  overload: System.Half.op_Addition*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: System.Half.op_Increment(System.Half)
+  commentId: M:System.Half.op_Increment(System.Half)
+  id: op_Increment(System.Half)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Increment(Half)
+  nameWithType: Half.Increment(Half)
+  fullName: System.Half.Increment(System.Half)
+  type: Operator
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: op_Increment
+    path: Half.cs
+    startLine: 735
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nIncrements the System.Half operand by 1.\n"
+  example: []
+  syntax:
+    content: public static Half operator ++(Half half)
+    parameters:
+    - id: half
+      type: System.Half
+      description: The System.Half operand.
+    return:
+      type: System.Half
+      description: The value of half incremented by 1.
+    content.vb: VB cannot support this operator.
+  overload: System.Half.op_Increment*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: System.Half.Epsilon
+  commentId: P:System.Half.Epsilon
+  id: Epsilon
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: Epsilon
+  nameWithType: Half.Epsilon
+  fullName: System.Half.Epsilon
+  type: Property
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: Epsilon
+    path: Half.cs
+    startLine: 747
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nRepresents the smallest positive System.Half value greater than zero. This field is constant.\n"
+  example: []
+  syntax:
+    content: public static Half Epsilon { get; }
+    parameters: []
+    return:
+      type: System.Half
+    content.vb: Public Shared ReadOnly Property Epsilon As Half
+  overload: System.Half.Epsilon*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: System.Half.MaxValue
+  commentId: P:System.Half.MaxValue
+  id: MaxValue
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: MaxValue
+  nameWithType: Half.MaxValue
+  fullName: System.Half.MaxValue
+  type: Property
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: MaxValue
+    path: Half.cs
+    startLine: 753
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nRepresents the largest possible value of System.Half. This field is constant.\n"
+  example: []
+  syntax:
+    content: public static Half MaxValue { get; }
+    parameters: []
+    return:
+      type: System.Half
+    content.vb: Public Shared ReadOnly Property MaxValue As Half
+  overload: System.Half.MaxValue*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: System.Half.MinValue
+  commentId: P:System.Half.MinValue
+  id: MinValue
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: MinValue
+  nameWithType: Half.MinValue
+  fullName: System.Half.MinValue
+  type: Property
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: MinValue
+    path: Half.cs
+    startLine: 759
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nRepresents the smallest possible value of System.Half. This field is constant.\n"
+  example: []
+  syntax:
+    content: public static Half MinValue { get; }
+    parameters: []
+    return:
+      type: System.Half
+    content.vb: Public Shared ReadOnly Property MinValue As Half
+  overload: System.Half.MinValue*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: System.Half.NaN
+  commentId: P:System.Half.NaN
+  id: NaN
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: NaN
+  nameWithType: Half.NaN
+  fullName: System.Half.NaN
+  type: Property
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: NaN
+    path: Half.cs
+    startLine: 765
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nRepresents not a number (NaN). This field is constant.\n"
+  example: []
+  syntax:
+    content: public static Half NaN { get; }
+    parameters: []
+    return:
+      type: System.Half
+    content.vb: Public Shared ReadOnly Property NaN As Half
+  overload: System.Half.NaN*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: System.Half.NegativeInfinity
+  commentId: P:System.Half.NegativeInfinity
+  id: NegativeInfinity
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: NegativeInfinity
+  nameWithType: Half.NegativeInfinity
+  fullName: System.Half.NegativeInfinity
+  type: Property
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: NegativeInfinity
+    path: Half.cs
+    startLine: 771
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nRepresents negative infinity. This field is constant.\n"
+  example: []
+  syntax:
+    content: public static Half NegativeInfinity { get; }
+    parameters: []
+    return:
+      type: System.Half
+    content.vb: Public Shared ReadOnly Property NegativeInfinity As Half
+  overload: System.Half.NegativeInfinity*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: System.Half.PositiveInfinity
+  commentId: P:System.Half.PositiveInfinity
+  id: PositiveInfinity
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: PositiveInfinity
+  nameWithType: Half.PositiveInfinity
+  fullName: System.Half.PositiveInfinity
+  type: Property
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: PositiveInfinity
+    path: Half.cs
+    startLine: 777
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nRepresents positive infinity. This field is constant.\n"
+  example: []
+  syntax:
+    content: public static Half PositiveInfinity { get; }
+    parameters: []
+    return:
+      type: System.Half
+    content.vb: Public Shared ReadOnly Property PositiveInfinity As Half
+  overload: System.Half.PositiveInfinity*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: System.Half.SizeOf
+  commentId: P:System.Half.SizeOf
+  id: SizeOf
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: SizeOf
+  nameWithType: Half.SizeOf
+  fullName: System.Half.SizeOf
+  type: Property
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: SizeOf
+    path: Half.cs
+    startLine: 783
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static int SizeOf { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property SizeOf As Integer
+  overload: System.Half.SizeOf*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: System.Half.GetBytes(System.Half)
+  commentId: M:System.Half.GetBytes(System.Half)
+  id: GetBytes(System.Half)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: GetBytes(Half)
+  nameWithType: Half.GetBytes(Half)
+  fullName: System.Half.GetBytes(System.Half)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: GetBytes
+    path: Half.cs
+    startLine: 791
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nReturns the specified half-precision floating point value as an array of bytes.\n"
+  example: []
+  syntax:
+    content: public static byte[] GetBytes(Half value)
+    parameters:
+    - id: value
+      type: System.Half
+      description: The number to convert.
+    return:
+      type: System.Byte[]
+      description: An array of bytes with length 2.
+    content.vb: Public Shared Function GetBytes(value As Half) As Byte()
+  overload: System.Half.GetBytes*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: System.Half.IsFinite(System.Half)
+  commentId: M:System.Half.IsFinite(System.Half)
+  id: IsFinite(System.Half)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: IsFinite(Half)
+  nameWithType: Half.IsFinite(Half)
+  fullName: System.Half.IsFinite(System.Half)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: IsFinite
+    path: Half.cs
+    startLine: 799
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static bool IsFinite(Half value)
+    parameters:
+    - id: value
+      type: System.Half
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Shared Function IsFinite(value As Half) As Boolean
+  overload: System.Half.IsFinite*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: System.Half.IsInfinity(System.Half)
+  commentId: M:System.Half.IsInfinity(System.Half)
+  id: IsInfinity(System.Half)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: IsInfinity(Half)
+  nameWithType: Half.IsInfinity(Half)
+  fullName: System.Half.IsInfinity(System.Half)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: IsInfinity
+    path: Half.cs
+    startLine: 808
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nReturns a value indicating whether the specified number evaluates to negative or positive infinity.\n"
+  example: []
+  syntax:
+    content: public static bool IsInfinity(Half half)
+    parameters:
+    - id: half
+      type: System.Half
+      description: A half-precision floating-point number.
+    return:
+      type: System.Boolean
+      description: true if half evaluates to System.Half.PositiveInfinity or System.Half.NegativeInfinity; otherwise, false.
+    content.vb: Public Shared Function IsInfinity(half As Half) As Boolean
+  overload: System.Half.IsInfinity*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: System.Half.IsNaN(System.Half)
+  commentId: M:System.Half.IsNaN(System.Half)
+  id: IsNaN(System.Half)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: IsNaN(Half)
+  nameWithType: Half.IsNaN(Half)
+  fullName: System.Half.IsNaN(System.Half)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: IsNaN
+    path: Half.cs
+    startLine: 816
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nReturns a value indicating whether the specified number evaluates to not a number (System.Half.NaN).\n"
+  example: []
+  syntax:
+    content: public static bool IsNaN(Half half)
+    parameters:
+    - id: half
+      type: System.Half
+      description: A half-precision floating-point number.
+    return:
+      type: System.Boolean
+      description: true if value evaluates to not a number (System.Half.NaN); otherwise, false.
+    content.vb: Public Shared Function IsNaN(half As Half) As Boolean
+  overload: System.Half.IsNaN*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: System.Half.IsNegative(System.Half)
+  commentId: M:System.Half.IsNegative(System.Half)
+  id: IsNegative(System.Half)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: IsNegative(Half)
+  nameWithType: Half.IsNegative(Half)
+  fullName: System.Half.IsNegative(System.Half)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: IsNegative
+    path: Half.cs
+    startLine: 824
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static bool IsNegative(Half value)
+    parameters:
+    - id: value
+      type: System.Half
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Shared Function IsNegative(value As Half) As Boolean
+  overload: System.Half.IsNegative*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: System.Half.IsNegativeInfinity(System.Half)
+  commentId: M:System.Half.IsNegativeInfinity(System.Half)
+  id: IsNegativeInfinity(System.Half)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: IsNegativeInfinity(Half)
+  nameWithType: Half.IsNegativeInfinity(Half)
+  fullName: System.Half.IsNegativeInfinity(System.Half)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: IsNegativeInfinity
+    path: Half.cs
+    startLine: 832
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nReturns a value indicating whether the specified number evaluates to negative infinity.\n"
+  example: []
+  syntax:
+    content: public static bool IsNegativeInfinity(Half half)
+    parameters:
+    - id: half
+      type: System.Half
+      description: A half-precision floating-point number.
+    return:
+      type: System.Boolean
+      description: true if half evaluates to System.Half.NegativeInfinity; otherwise, false.
+    content.vb: Public Shared Function IsNegativeInfinity(half As Half) As Boolean
+  overload: System.Half.IsNegativeInfinity*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: System.Half.IsNormal(System.Half)
+  commentId: M:System.Half.IsNormal(System.Half)
+  id: IsNormal(System.Half)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: IsNormal(Half)
+  nameWithType: Half.IsNormal(Half)
+  fullName: System.Half.IsNormal(System.Half)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: IsNormal
+    path: Half.cs
+    startLine: 840
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static bool IsNormal(Half value)
+    parameters:
+    - id: value
+      type: System.Half
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Shared Function IsNormal(value As Half) As Boolean
+  overload: System.Half.IsNormal*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: System.Half.IsPositiveInfinity(System.Half)
+  commentId: M:System.Half.IsPositiveInfinity(System.Half)
+  id: IsPositiveInfinity(System.Half)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: IsPositiveInfinity(Half)
+  nameWithType: Half.IsPositiveInfinity(Half)
+  fullName: System.Half.IsPositiveInfinity(System.Half)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: IsPositiveInfinity
+    path: Half.cs
+    startLine: 848
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nReturns a value indicating whether the specified number evaluates to positive infinity.\n"
+  example: []
+  syntax:
+    content: public static bool IsPositiveInfinity(Half half)
+    parameters:
+    - id: half
+      type: System.Half
+      description: A half-precision floating-point number.
+    return:
+      type: System.Boolean
+      description: true if half evaluates to System.Half.PositiveInfinity; otherwise, false.
+    content.vb: Public Shared Function IsPositiveInfinity(half As Half) As Boolean
+  overload: System.Half.IsPositiveInfinity*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: System.Half.IsSubnormal(System.Half)
+  commentId: M:System.Half.IsSubnormal(System.Half)
+  id: IsSubnormal(System.Half)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: IsSubnormal(Half)
+  nameWithType: Half.IsSubnormal(Half)
+  fullName: System.Half.IsSubnormal(System.Half)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: IsSubnormal
+    path: Half.cs
+    startLine: 856
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static bool IsSubnormal(Half value)
+    parameters:
+    - id: value
+      type: System.Half
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Shared Function IsSubnormal(value As Half) As Boolean
+  overload: System.Half.IsSubnormal*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: System.Half.ToHalf(System.Byte[],System.Int32)
+  commentId: M:System.Half.ToHalf(System.Byte[],System.Int32)
+  id: ToHalf(System.Byte[],System.Int32)
+  parent: System.Half
+  langs:
+  - csharp
+  - vb
+  name: ToHalf(Byte[], Int32)
+  nameWithType: Half.ToHalf(Byte[], Int32)
+  fullName: System.Half.ToHalf(System.Byte[], System.Int32)
+  type: Method
+  source:
+    remote:
+      path: src/NumericTypes/Half.cs
+      branch: master
+      repo: https://github.com/stefanrbk/DataTypes.git
+    id: ToHalf
+    path: Half.cs
+    startLine: 872
+  assemblies:
+  - NumericTypes
+  namespace: System
+  summary: "\nReturns a half-precision floating point number converted from two bytes\nat a specified position in a byte array.\n"
+  example: []
+  syntax:
+    content: public static Half ToHalf(byte[] value, int startIndex)
+    parameters:
+    - id: value
+      type: System.Byte[]
+      description: An array of bytes.
+    - id: startIndex
+      type: System.Int32
+      description: The starting position within value.
+    return:
+      type: System.Half
+      description: A half-precision floating point number formed by two bytes beginning at startIndex.
+    content.vb: Public Shared Function ToHalf(value As Byte(), startIndex As Integer) As Half
+  overload: System.Half.ToHalf*
+  exceptions:
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: "\nstartIndex is greater than or equal to the length of value minus 1, and is\nless than or equal to the length of value minus 1.\n"
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: value is null.
+  - type: System.ArgumentOutOfRangeException
+    commentId: T:System.ArgumentOutOfRangeException
+    description: startIndex is less than zero or greater than the length of value minus 1.
+  nameWithType.vb: Half.ToHalf(Byte(), Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Half.ToHalf(System.Byte(), System.Int32)
+  name.vb: ToHalf(Byte(), Int32)
+references:
+- uid: System
+  commentId: N:System
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IComparable
+  commentId: T:System.IComparable
+  parent: System
+  isExternal: true
+  name: IComparable
+  nameWithType: IComparable
+  fullName: System.IComparable
+- uid: System.IFormattable
+  commentId: T:System.IFormattable
+  parent: System
+  isExternal: true
+  name: IFormattable
+  nameWithType: IFormattable
+  fullName: System.IFormattable
+- uid: System.IConvertible
+  commentId: T:System.IConvertible
+  parent: System
+  isExternal: true
+  name: IConvertible
+  nameWithType: IConvertible
+  fullName: System.IConvertible
+- uid: System.IComparable{System.Half}
+  commentId: T:System.IComparable{System.Half}
+  parent: System
+  definition: System.IComparable`1
+  name: IComparable<Half>
+  nameWithType: IComparable<Half>
+  fullName: System.IComparable<System.Half>
+  nameWithType.vb: IComparable(Of Half)
+  fullName.vb: System.IComparable(Of System.Half)
+  name.vb: IComparable(Of Half)
+  spec.csharp:
+  - uid: System.IComparable`1
+    name: IComparable
+    nameWithType: IComparable
+    fullName: System.IComparable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Half
+    name: Half
+    nameWithType: Half
+    fullName: System.Half
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IComparable`1
+    name: IComparable
+    nameWithType: IComparable
+    fullName: System.IComparable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Half
+    name: Half
+    nameWithType: Half
+    fullName: System.Half
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IEquatable{System.Half}
+  commentId: T:System.IEquatable{System.Half}
+  parent: System
+  definition: System.IEquatable`1
+  name: IEquatable<Half>
+  nameWithType: IEquatable<Half>
+  fullName: System.IEquatable<System.Half>
+  nameWithType.vb: IEquatable(Of Half)
+  fullName.vb: System.IEquatable(Of System.Half)
+  name.vb: IEquatable(Of Half)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Half
+    name: Half
+    nameWithType: Half
+    fullName: System.Half
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Half
+    name: Half
+    nameWithType: Half
+    fullName: System.Half
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IComparable`1
+  commentId: T:System.IComparable`1
+  isExternal: true
+  name: IComparable<T>
+  nameWithType: IComparable<T>
+  fullName: System.IComparable<T>
+  nameWithType.vb: IComparable(Of T)
+  fullName.vb: System.IComparable(Of T)
+  name.vb: IComparable(Of T)
+  spec.csharp:
+  - uid: System.IComparable`1
+    name: IComparable
+    nameWithType: IComparable
+    fullName: System.IComparable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IComparable`1
+    name: IComparable
+    nameWithType: IComparable
+    fullName: System.IComparable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+  isExternal: true
+- uid: System.FormatException
+  commentId: T:System.FormatException
+  isExternal: true
+- uid: System.OverflowException
+  commentId: T:System.OverflowException
+  isExternal: true
+- uid: System.Half.Parse*
+  commentId: Overload:System.Half.Parse
+  name: Parse
+  nameWithType: Half.Parse
+  fullName: System.Half.Parse
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Half
+  commentId: T:System.Half
+  parent: System
+  name: Half
+  nameWithType: Half
+  fullName: System.Half
+- uid: System.ArgumentException
+  commentId: T:System.ArgumentException
+  isExternal: true
+- uid: System.Globalization.NumberStyles
+  commentId: T:System.Globalization.NumberStyles
+  parent: System.Globalization
+  isExternal: true
+  name: NumberStyles
+  nameWithType: NumberStyles
+  fullName: System.Globalization.NumberStyles
+- uid: System.Globalization
+  commentId: N:System.Globalization
+  isExternal: true
+  name: System.Globalization
+  nameWithType: System.Globalization
+  fullName: System.Globalization
+- uid: System.IFormatProvider
+  commentId: T:System.IFormatProvider
+  parent: System
+  isExternal: true
+  name: IFormatProvider
+  nameWithType: IFormatProvider
+  fullName: System.IFormatProvider
+- uid: System.Half.TryParse*
+  commentId: Overload:System.Half.TryParse
+  name: TryParse
+  nameWithType: Half.TryParse
+  fullName: System.Half.TryParse
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Half.CompareTo*
+  commentId: Overload:System.Half.CompareTo
+  name: CompareTo
+  nameWithType: Half.CompareTo
+  fullName: System.Half.CompareTo
+- uid: System.IComparable.CompareTo(System.Object)
+  commentId: M:System.IComparable.CompareTo(System.Object)
+  parent: System.IComparable
+  isExternal: true
+  name: CompareTo(Object)
+  nameWithType: IComparable.CompareTo(Object)
+  fullName: System.IComparable.CompareTo(System.Object)
+  spec.csharp:
+  - uid: System.IComparable.CompareTo(System.Object)
+    name: CompareTo
+    nameWithType: IComparable.CompareTo
+    fullName: System.IComparable.CompareTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IComparable.CompareTo(System.Object)
+    name: CompareTo
+    nameWithType: IComparable.CompareTo
+    fullName: System.IComparable.CompareTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.IComparable{System.Half}.CompareTo(System.Half)
+  commentId: M:System.IComparable{System.Half}.CompareTo(System.Half)
+  parent: System.IComparable{System.Half}
+  definition: System.IComparable`1.CompareTo(`0)
+  name: CompareTo(Half)
+  nameWithType: IComparable<Half>.CompareTo(Half)
+  fullName: System.IComparable<System.Half>.CompareTo(System.Half)
+  nameWithType.vb: IComparable(Of Half).CompareTo(Half)
+  fullName.vb: System.IComparable(Of System.Half).CompareTo(System.Half)
+  spec.csharp:
+  - uid: System.IComparable`1.CompareTo(`0)
+    name: CompareTo
+    nameWithType: IComparable<Half>.CompareTo
+    fullName: System.IComparable<System.Half>.CompareTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Half
+    name: Half
+    nameWithType: Half
+    fullName: System.Half
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IComparable`1.CompareTo(`0)
+    name: CompareTo
+    nameWithType: IComparable(Of Half).CompareTo
+    fullName: System.IComparable(Of System.Half).CompareTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Half
+    name: Half
+    nameWithType: Half
+    fullName: System.Half
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IComparable`1.CompareTo(`0)
+  commentId: M:System.IComparable`1.CompareTo(`0)
+  isExternal: true
+  name: CompareTo(T)
+  nameWithType: IComparable<T>.CompareTo(T)
+  fullName: System.IComparable<T>.CompareTo(T)
+  nameWithType.vb: IComparable(Of T).CompareTo(T)
+  fullName.vb: System.IComparable(Of T).CompareTo(T)
+  spec.csharp:
+  - uid: System.IComparable`1.CompareTo(`0)
+    name: CompareTo
+    nameWithType: IComparable<T>.CompareTo
+    fullName: System.IComparable<T>.CompareTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IComparable`1.CompareTo(`0)
+    name: CompareTo
+    nameWithType: IComparable(Of T).CompareTo
+    fullName: System.IComparable(Of T).CompareTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Half.Equals*
+  commentId: Overload:System.Half.Equals
+  name: Equals
+  nameWithType: Half.Equals
+  fullName: System.Half.Equals
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.IEquatable{System.Half}.Equals(System.Half)
+  commentId: M:System.IEquatable{System.Half}.Equals(System.Half)
+  parent: System.IEquatable{System.Half}
+  definition: System.IEquatable`1.Equals(`0)
+  name: Equals(Half)
+  nameWithType: IEquatable<Half>.Equals(Half)
+  fullName: System.IEquatable<System.Half>.Equals(System.Half)
+  nameWithType.vb: IEquatable(Of Half).Equals(Half)
+  fullName.vb: System.IEquatable(Of System.Half).Equals(System.Half)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable<Half>.Equals
+    fullName: System.IEquatable<System.Half>.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Half
+    name: Half
+    nameWithType: Half
+    fullName: System.Half
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable(Of Half).Equals
+    fullName: System.IEquatable(Of System.Half).Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Half
+    name: Half
+    nameWithType: Half
+    fullName: System.Half
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable<T>.Equals
+    fullName: System.IEquatable<T>.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable(Of T).Equals
+    fullName: System.IEquatable(Of T).Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Half.GetHashCode*
+  commentId: Overload:System.Half.GetHashCode
+  name: GetHashCode
+  nameWithType: Half.GetHashCode
+  fullName: System.Half.GetHashCode
+- uid: System.Half.GetTypeCode*
+  commentId: Overload:System.Half.GetTypeCode
+  name: GetTypeCode
+  nameWithType: Half.GetTypeCode
+  fullName: System.Half.GetTypeCode
+- uid: System.IConvertible.GetTypeCode
+  commentId: M:System.IConvertible.GetTypeCode
+  parent: System.IConvertible
+  isExternal: true
+  name: GetTypeCode()
+  nameWithType: IConvertible.GetTypeCode()
+  fullName: System.IConvertible.GetTypeCode()
+  spec.csharp:
+  - uid: System.IConvertible.GetTypeCode
+    name: GetTypeCode
+    nameWithType: IConvertible.GetTypeCode
+    fullName: System.IConvertible.GetTypeCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IConvertible.GetTypeCode
+    name: GetTypeCode
+    nameWithType: IConvertible.GetTypeCode
+    fullName: System.IConvertible.GetTypeCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.TypeCode
+  commentId: T:System.TypeCode
+  parent: System
+  isExternal: true
+  name: TypeCode
+  nameWithType: TypeCode
+  fullName: System.TypeCode
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Half.ToString*
+  commentId: Overload:System.Half.ToString
+  name: ToString
+  nameWithType: Half.ToString
+  fullName: System.Half.ToString
+- uid: System.IFormattable.ToString(System.String,System.IFormatProvider)
+  commentId: M:System.IFormattable.ToString(System.String,System.IFormatProvider)
+  parent: System.IFormattable
+  isExternal: true
+  name: ToString(String, IFormatProvider)
+  nameWithType: IFormattable.ToString(String, IFormatProvider)
+  fullName: System.IFormattable.ToString(System.String, System.IFormatProvider)
+  spec.csharp:
+  - uid: System.IFormattable.ToString(System.String,System.IFormatProvider)
+    name: ToString
+    nameWithType: IFormattable.ToString
+    fullName: System.IFormattable.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IFormattable.ToString(System.String,System.IFormatProvider)
+    name: ToString
+    nameWithType: IFormattable.ToString
+    fullName: System.IFormattable.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Half.TryFormat*
+  commentId: Overload:System.Half.TryFormat
+  name: TryFormat
+  nameWithType: Half.TryFormat
+  fullName: System.Half.TryFormat
+- uid: System.Span{System.Char}
+  commentId: T:System.Span{System.Char}
+  parent: System
+  definition: System.Span`1
+  name: Span<Char>
+  nameWithType: Span<Char>
+  fullName: System.Span<System.Char>
+  nameWithType.vb: Span(Of Char)
+  fullName.vb: System.Span(Of System.Char)
+  name.vb: Span(Of Char)
+  spec.csharp:
+  - uid: System.Span`1
+    name: Span
+    nameWithType: Span
+    fullName: System.Span
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Span`1
+    name: Span
+    nameWithType: Span
+    fullName: System.Span
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ReadOnlySpan{System.Char}
+  commentId: T:System.ReadOnlySpan{System.Char}
+  parent: System
+  definition: System.ReadOnlySpan`1
+  name: ReadOnlySpan<Char>
+  nameWithType: ReadOnlySpan<Char>
+  fullName: System.ReadOnlySpan<System.Char>
+  nameWithType.vb: ReadOnlySpan(Of Char)
+  fullName.vb: System.ReadOnlySpan(Of System.Char)
+  name.vb: ReadOnlySpan(Of Char)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    nameWithType: ReadOnlySpan
+    fullName: System.ReadOnlySpan
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    nameWithType: ReadOnlySpan
+    fullName: System.ReadOnlySpan
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Span`1
+  commentId: T:System.Span`1
+  isExternal: true
+  name: Span<T>
+  nameWithType: Span<T>
+  fullName: System.Span<T>
+  nameWithType.vb: Span(Of T)
+  fullName.vb: System.Span(Of T)
+  name.vb: Span(Of T)
+  spec.csharp:
+  - uid: System.Span`1
+    name: Span
+    nameWithType: Span
+    fullName: System.Span
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Span`1
+    name: Span
+    nameWithType: Span
+    fullName: System.Span
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ReadOnlySpan`1
+  commentId: T:System.ReadOnlySpan`1
+  isExternal: true
+  name: ReadOnlySpan<T>
+  nameWithType: ReadOnlySpan<T>
+  fullName: System.ReadOnlySpan<T>
+  nameWithType.vb: ReadOnlySpan(Of T)
+  fullName.vb: System.ReadOnlySpan(Of T)
+  name.vb: ReadOnlySpan(Of T)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    nameWithType: ReadOnlySpan
+    fullName: System.ReadOnlySpan
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    nameWithType: ReadOnlySpan
+    fullName: System.ReadOnlySpan
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Half.System#IConvertible#ToBoolean*
+  commentId: Overload:System.Half.System#IConvertible#ToBoolean
+  name: IConvertible.ToBoolean
+  nameWithType: Half.IConvertible.ToBoolean
+  fullName: System.Half.System.IConvertible.ToBoolean
+  nameWithType.vb: Half.System.IConvertible.ToBoolean
+  name.vb: System.IConvertible.ToBoolean
+- uid: System.IConvertible.ToBoolean(System.IFormatProvider)
+  commentId: M:System.IConvertible.ToBoolean(System.IFormatProvider)
+  parent: System.IConvertible
+  isExternal: true
+  name: ToBoolean(IFormatProvider)
+  nameWithType: IConvertible.ToBoolean(IFormatProvider)
+  fullName: System.IConvertible.ToBoolean(System.IFormatProvider)
+  spec.csharp:
+  - uid: System.IConvertible.ToBoolean(System.IFormatProvider)
+    name: ToBoolean
+    nameWithType: IConvertible.ToBoolean
+    fullName: System.IConvertible.ToBoolean
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IConvertible.ToBoolean(System.IFormatProvider)
+    name: ToBoolean
+    nameWithType: IConvertible.ToBoolean
+    fullName: System.IConvertible.ToBoolean
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Half.System#IConvertible#ToByte*
+  commentId: Overload:System.Half.System#IConvertible#ToByte
+  name: IConvertible.ToByte
+  nameWithType: Half.IConvertible.ToByte
+  fullName: System.Half.System.IConvertible.ToByte
+  nameWithType.vb: Half.System.IConvertible.ToByte
+  name.vb: System.IConvertible.ToByte
+- uid: System.IConvertible.ToByte(System.IFormatProvider)
+  commentId: M:System.IConvertible.ToByte(System.IFormatProvider)
+  parent: System.IConvertible
+  isExternal: true
+  name: ToByte(IFormatProvider)
+  nameWithType: IConvertible.ToByte(IFormatProvider)
+  fullName: System.IConvertible.ToByte(System.IFormatProvider)
+  spec.csharp:
+  - uid: System.IConvertible.ToByte(System.IFormatProvider)
+    name: ToByte
+    nameWithType: IConvertible.ToByte
+    fullName: System.IConvertible.ToByte
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IConvertible.ToByte(System.IFormatProvider)
+    name: ToByte
+    nameWithType: IConvertible.ToByte
+    fullName: System.IConvertible.ToByte
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: System.Half.System#IConvertible#ToChar*
+  commentId: Overload:System.Half.System#IConvertible#ToChar
+  name: IConvertible.ToChar
+  nameWithType: Half.IConvertible.ToChar
+  fullName: System.Half.System.IConvertible.ToChar
+  nameWithType.vb: Half.System.IConvertible.ToChar
+  name.vb: System.IConvertible.ToChar
+- uid: System.IConvertible.ToChar(System.IFormatProvider)
+  commentId: M:System.IConvertible.ToChar(System.IFormatProvider)
+  parent: System.IConvertible
+  isExternal: true
+  name: ToChar(IFormatProvider)
+  nameWithType: IConvertible.ToChar(IFormatProvider)
+  fullName: System.IConvertible.ToChar(System.IFormatProvider)
+  spec.csharp:
+  - uid: System.IConvertible.ToChar(System.IFormatProvider)
+    name: ToChar
+    nameWithType: IConvertible.ToChar
+    fullName: System.IConvertible.ToChar
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IConvertible.ToChar(System.IFormatProvider)
+    name: ToChar
+    nameWithType: IConvertible.ToChar
+    fullName: System.IConvertible.ToChar
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  name: Char
+  nameWithType: Char
+  fullName: System.Char
+- uid: System.Half.System#IConvertible#ToDateTime*
+  commentId: Overload:System.Half.System#IConvertible#ToDateTime
+  name: IConvertible.ToDateTime
+  nameWithType: Half.IConvertible.ToDateTime
+  fullName: System.Half.System.IConvertible.ToDateTime
+  nameWithType.vb: Half.System.IConvertible.ToDateTime
+  name.vb: System.IConvertible.ToDateTime
+- uid: System.IConvertible.ToDateTime(System.IFormatProvider)
+  commentId: M:System.IConvertible.ToDateTime(System.IFormatProvider)
+  parent: System.IConvertible
+  isExternal: true
+  name: ToDateTime(IFormatProvider)
+  nameWithType: IConvertible.ToDateTime(IFormatProvider)
+  fullName: System.IConvertible.ToDateTime(System.IFormatProvider)
+  spec.csharp:
+  - uid: System.IConvertible.ToDateTime(System.IFormatProvider)
+    name: ToDateTime
+    nameWithType: IConvertible.ToDateTime
+    fullName: System.IConvertible.ToDateTime
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IConvertible.ToDateTime(System.IFormatProvider)
+    name: ToDateTime
+    nameWithType: IConvertible.ToDateTime
+    fullName: System.IConvertible.ToDateTime
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.Half.System#IConvertible#ToDecimal*
+  commentId: Overload:System.Half.System#IConvertible#ToDecimal
+  name: IConvertible.ToDecimal
+  nameWithType: Half.IConvertible.ToDecimal
+  fullName: System.Half.System.IConvertible.ToDecimal
+  nameWithType.vb: Half.System.IConvertible.ToDecimal
+  name.vb: System.IConvertible.ToDecimal
+- uid: System.IConvertible.ToDecimal(System.IFormatProvider)
+  commentId: M:System.IConvertible.ToDecimal(System.IFormatProvider)
+  parent: System.IConvertible
+  isExternal: true
+  name: ToDecimal(IFormatProvider)
+  nameWithType: IConvertible.ToDecimal(IFormatProvider)
+  fullName: System.IConvertible.ToDecimal(System.IFormatProvider)
+  spec.csharp:
+  - uid: System.IConvertible.ToDecimal(System.IFormatProvider)
+    name: ToDecimal
+    nameWithType: IConvertible.ToDecimal
+    fullName: System.IConvertible.ToDecimal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IConvertible.ToDecimal(System.IFormatProvider)
+    name: ToDecimal
+    nameWithType: IConvertible.ToDecimal
+    fullName: System.IConvertible.ToDecimal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  name: Decimal
+  nameWithType: Decimal
+  fullName: System.Decimal
+- uid: System.Half.System#IConvertible#ToDouble*
+  commentId: Overload:System.Half.System#IConvertible#ToDouble
+  name: IConvertible.ToDouble
+  nameWithType: Half.IConvertible.ToDouble
+  fullName: System.Half.System.IConvertible.ToDouble
+  nameWithType.vb: Half.System.IConvertible.ToDouble
+  name.vb: System.IConvertible.ToDouble
+- uid: System.IConvertible.ToDouble(System.IFormatProvider)
+  commentId: M:System.IConvertible.ToDouble(System.IFormatProvider)
+  parent: System.IConvertible
+  isExternal: true
+  name: ToDouble(IFormatProvider)
+  nameWithType: IConvertible.ToDouble(IFormatProvider)
+  fullName: System.IConvertible.ToDouble(System.IFormatProvider)
+  spec.csharp:
+  - uid: System.IConvertible.ToDouble(System.IFormatProvider)
+    name: ToDouble
+    nameWithType: IConvertible.ToDouble
+    fullName: System.IConvertible.ToDouble
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IConvertible.ToDouble(System.IFormatProvider)
+    name: ToDouble
+    nameWithType: IConvertible.ToDouble
+    fullName: System.IConvertible.ToDouble
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: System.Half.System#IConvertible#ToInt16*
+  commentId: Overload:System.Half.System#IConvertible#ToInt16
+  name: IConvertible.ToInt16
+  nameWithType: Half.IConvertible.ToInt16
+  fullName: System.Half.System.IConvertible.ToInt16
+  nameWithType.vb: Half.System.IConvertible.ToInt16
+  name.vb: System.IConvertible.ToInt16
+- uid: System.IConvertible.ToInt16(System.IFormatProvider)
+  commentId: M:System.IConvertible.ToInt16(System.IFormatProvider)
+  parent: System.IConvertible
+  isExternal: true
+  name: ToInt16(IFormatProvider)
+  nameWithType: IConvertible.ToInt16(IFormatProvider)
+  fullName: System.IConvertible.ToInt16(System.IFormatProvider)
+  spec.csharp:
+  - uid: System.IConvertible.ToInt16(System.IFormatProvider)
+    name: ToInt16
+    nameWithType: IConvertible.ToInt16
+    fullName: System.IConvertible.ToInt16
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IConvertible.ToInt16(System.IFormatProvider)
+    name: ToInt16
+    nameWithType: IConvertible.ToInt16
+    fullName: System.IConvertible.ToInt16
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: System.Half.System#IConvertible#ToInt32*
+  commentId: Overload:System.Half.System#IConvertible#ToInt32
+  name: IConvertible.ToInt32
+  nameWithType: Half.IConvertible.ToInt32
+  fullName: System.Half.System.IConvertible.ToInt32
+  nameWithType.vb: Half.System.IConvertible.ToInt32
+  name.vb: System.IConvertible.ToInt32
+- uid: System.IConvertible.ToInt32(System.IFormatProvider)
+  commentId: M:System.IConvertible.ToInt32(System.IFormatProvider)
+  parent: System.IConvertible
+  isExternal: true
+  name: ToInt32(IFormatProvider)
+  nameWithType: IConvertible.ToInt32(IFormatProvider)
+  fullName: System.IConvertible.ToInt32(System.IFormatProvider)
+  spec.csharp:
+  - uid: System.IConvertible.ToInt32(System.IFormatProvider)
+    name: ToInt32
+    nameWithType: IConvertible.ToInt32
+    fullName: System.IConvertible.ToInt32
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IConvertible.ToInt32(System.IFormatProvider)
+    name: ToInt32
+    nameWithType: IConvertible.ToInt32
+    fullName: System.IConvertible.ToInt32
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Half.System#IConvertible#ToInt64*
+  commentId: Overload:System.Half.System#IConvertible#ToInt64
+  name: IConvertible.ToInt64
+  nameWithType: Half.IConvertible.ToInt64
+  fullName: System.Half.System.IConvertible.ToInt64
+  nameWithType.vb: Half.System.IConvertible.ToInt64
+  name.vb: System.IConvertible.ToInt64
+- uid: System.IConvertible.ToInt64(System.IFormatProvider)
+  commentId: M:System.IConvertible.ToInt64(System.IFormatProvider)
+  parent: System.IConvertible
+  isExternal: true
+  name: ToInt64(IFormatProvider)
+  nameWithType: IConvertible.ToInt64(IFormatProvider)
+  fullName: System.IConvertible.ToInt64(System.IFormatProvider)
+  spec.csharp:
+  - uid: System.IConvertible.ToInt64(System.IFormatProvider)
+    name: ToInt64
+    nameWithType: IConvertible.ToInt64
+    fullName: System.IConvertible.ToInt64
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IConvertible.ToInt64(System.IFormatProvider)
+    name: ToInt64
+    nameWithType: IConvertible.ToInt64
+    fullName: System.IConvertible.ToInt64
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: System.Half.System#IConvertible#ToSByte*
+  commentId: Overload:System.Half.System#IConvertible#ToSByte
+  name: IConvertible.ToSByte
+  nameWithType: Half.IConvertible.ToSByte
+  fullName: System.Half.System.IConvertible.ToSByte
+  nameWithType.vb: Half.System.IConvertible.ToSByte
+  name.vb: System.IConvertible.ToSByte
+- uid: System.IConvertible.ToSByte(System.IFormatProvider)
+  commentId: M:System.IConvertible.ToSByte(System.IFormatProvider)
+  parent: System.IConvertible
+  isExternal: true
+  name: ToSByte(IFormatProvider)
+  nameWithType: IConvertible.ToSByte(IFormatProvider)
+  fullName: System.IConvertible.ToSByte(System.IFormatProvider)
+  spec.csharp:
+  - uid: System.IConvertible.ToSByte(System.IFormatProvider)
+    name: ToSByte
+    nameWithType: IConvertible.ToSByte
+    fullName: System.IConvertible.ToSByte
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IConvertible.ToSByte(System.IFormatProvider)
+    name: ToSByte
+    nameWithType: IConvertible.ToSByte
+    fullName: System.IConvertible.ToSByte
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.SByte
+  commentId: T:System.SByte
+  parent: System
+  isExternal: true
+  name: SByte
+  nameWithType: SByte
+  fullName: System.SByte
+- uid: System.Half.System#IConvertible#ToSingle*
+  commentId: Overload:System.Half.System#IConvertible#ToSingle
+  name: IConvertible.ToSingle
+  nameWithType: Half.IConvertible.ToSingle
+  fullName: System.Half.System.IConvertible.ToSingle
+  nameWithType.vb: Half.System.IConvertible.ToSingle
+  name.vb: System.IConvertible.ToSingle
+- uid: System.IConvertible.ToSingle(System.IFormatProvider)
+  commentId: M:System.IConvertible.ToSingle(System.IFormatProvider)
+  parent: System.IConvertible
+  isExternal: true
+  name: ToSingle(IFormatProvider)
+  nameWithType: IConvertible.ToSingle(IFormatProvider)
+  fullName: System.IConvertible.ToSingle(System.IFormatProvider)
+  spec.csharp:
+  - uid: System.IConvertible.ToSingle(System.IFormatProvider)
+    name: ToSingle
+    nameWithType: IConvertible.ToSingle
+    fullName: System.IConvertible.ToSingle
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IConvertible.ToSingle(System.IFormatProvider)
+    name: ToSingle
+    nameWithType: IConvertible.ToSingle
+    fullName: System.IConvertible.ToSingle
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System.Half.System#IConvertible#ToString*
+  commentId: Overload:System.Half.System#IConvertible#ToString
+  name: IConvertible.ToString
+  nameWithType: Half.IConvertible.ToString
+  fullName: System.Half.System.IConvertible.ToString
+  nameWithType.vb: Half.System.IConvertible.ToString
+  name.vb: System.IConvertible.ToString
+- uid: System.IConvertible.ToString(System.IFormatProvider)
+  commentId: M:System.IConvertible.ToString(System.IFormatProvider)
+  parent: System.IConvertible
+  isExternal: true
+  name: ToString(IFormatProvider)
+  nameWithType: IConvertible.ToString(IFormatProvider)
+  fullName: System.IConvertible.ToString(System.IFormatProvider)
+  spec.csharp:
+  - uid: System.IConvertible.ToString(System.IFormatProvider)
+    name: ToString
+    nameWithType: IConvertible.ToString
+    fullName: System.IConvertible.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IConvertible.ToString(System.IFormatProvider)
+    name: ToString
+    nameWithType: IConvertible.ToString
+    fullName: System.IConvertible.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Half.System#IConvertible#ToType*
+  commentId: Overload:System.Half.System#IConvertible#ToType
+  name: IConvertible.ToType
+  nameWithType: Half.IConvertible.ToType
+  fullName: System.Half.System.IConvertible.ToType
+  nameWithType.vb: Half.System.IConvertible.ToType
+  name.vb: System.IConvertible.ToType
+- uid: System.IConvertible.ToType(System.Type,System.IFormatProvider)
+  commentId: M:System.IConvertible.ToType(System.Type,System.IFormatProvider)
+  parent: System.IConvertible
+  isExternal: true
+  name: ToType(Type, IFormatProvider)
+  nameWithType: IConvertible.ToType(Type, IFormatProvider)
+  fullName: System.IConvertible.ToType(System.Type, System.IFormatProvider)
+  spec.csharp:
+  - uid: System.IConvertible.ToType(System.Type,System.IFormatProvider)
+    name: ToType
+    nameWithType: IConvertible.ToType
+    fullName: System.IConvertible.ToType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IConvertible.ToType(System.Type,System.IFormatProvider)
+    name: ToType
+    nameWithType: IConvertible.ToType
+    fullName: System.IConvertible.ToType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Half.System#IConvertible#ToUInt16*
+  commentId: Overload:System.Half.System#IConvertible#ToUInt16
+  name: IConvertible.ToUInt16
+  nameWithType: Half.IConvertible.ToUInt16
+  fullName: System.Half.System.IConvertible.ToUInt16
+  nameWithType.vb: Half.System.IConvertible.ToUInt16
+  name.vb: System.IConvertible.ToUInt16
+- uid: System.IConvertible.ToUInt16(System.IFormatProvider)
+  commentId: M:System.IConvertible.ToUInt16(System.IFormatProvider)
+  parent: System.IConvertible
+  isExternal: true
+  name: ToUInt16(IFormatProvider)
+  nameWithType: IConvertible.ToUInt16(IFormatProvider)
+  fullName: System.IConvertible.ToUInt16(System.IFormatProvider)
+  spec.csharp:
+  - uid: System.IConvertible.ToUInt16(System.IFormatProvider)
+    name: ToUInt16
+    nameWithType: IConvertible.ToUInt16
+    fullName: System.IConvertible.ToUInt16
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IConvertible.ToUInt16(System.IFormatProvider)
+    name: ToUInt16
+    nameWithType: IConvertible.ToUInt16
+    fullName: System.IConvertible.ToUInt16
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
+- uid: System.Half.System#IConvertible#ToUInt32*
+  commentId: Overload:System.Half.System#IConvertible#ToUInt32
+  name: IConvertible.ToUInt32
+  nameWithType: Half.IConvertible.ToUInt32
+  fullName: System.Half.System.IConvertible.ToUInt32
+  nameWithType.vb: Half.System.IConvertible.ToUInt32
+  name.vb: System.IConvertible.ToUInt32
+- uid: System.IConvertible.ToUInt32(System.IFormatProvider)
+  commentId: M:System.IConvertible.ToUInt32(System.IFormatProvider)
+  parent: System.IConvertible
+  isExternal: true
+  name: ToUInt32(IFormatProvider)
+  nameWithType: IConvertible.ToUInt32(IFormatProvider)
+  fullName: System.IConvertible.ToUInt32(System.IFormatProvider)
+  spec.csharp:
+  - uid: System.IConvertible.ToUInt32(System.IFormatProvider)
+    name: ToUInt32
+    nameWithType: IConvertible.ToUInt32
+    fullName: System.IConvertible.ToUInt32
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IConvertible.ToUInt32(System.IFormatProvider)
+    name: ToUInt32
+    nameWithType: IConvertible.ToUInt32
+    fullName: System.IConvertible.ToUInt32
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: System.Half.System#IConvertible#ToUInt64*
+  commentId: Overload:System.Half.System#IConvertible#ToUInt64
+  name: IConvertible.ToUInt64
+  nameWithType: Half.IConvertible.ToUInt64
+  fullName: System.Half.System.IConvertible.ToUInt64
+  nameWithType.vb: Half.System.IConvertible.ToUInt64
+  name.vb: System.IConvertible.ToUInt64
+- uid: System.IConvertible.ToUInt64(System.IFormatProvider)
+  commentId: M:System.IConvertible.ToUInt64(System.IFormatProvider)
+  parent: System.IConvertible
+  isExternal: true
+  name: ToUInt64(IFormatProvider)
+  nameWithType: IConvertible.ToUInt64(IFormatProvider)
+  fullName: System.IConvertible.ToUInt64(System.IFormatProvider)
+  spec.csharp:
+  - uid: System.IConvertible.ToUInt64(System.IFormatProvider)
+    name: ToUInt64
+    nameWithType: IConvertible.ToUInt64
+    fullName: System.IConvertible.ToUInt64
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IConvertible.ToUInt64(System.IFormatProvider)
+    name: ToUInt64
+    nameWithType: IConvertible.ToUInt64
+    fullName: System.IConvertible.ToUInt64
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  name: UInt64
+  nameWithType: UInt64
+  fullName: System.UInt64
+- uid: System.Half.op_Inequality*
+  commentId: Overload:System.Half.op_Inequality
+  name: Inequality
+  nameWithType: Half.Inequality
+  fullName: System.Half.Inequality
+- uid: System.Half.op_LessThan*
+  commentId: Overload:System.Half.op_LessThan
+  name: LessThan
+  nameWithType: Half.LessThan
+  fullName: System.Half.LessThan
+- uid: System.Half.op_LessThanOrEqual*
+  commentId: Overload:System.Half.op_LessThanOrEqual
+  name: LessThanOrEqual
+  nameWithType: Half.LessThanOrEqual
+  fullName: System.Half.LessThanOrEqual
+- uid: System.Half.op_Equality*
+  commentId: Overload:System.Half.op_Equality
+  name: Equality
+  nameWithType: Half.Equality
+  fullName: System.Half.Equality
+- uid: System.Half.op_GreaterThan*
+  commentId: Overload:System.Half.op_GreaterThan
+  name: GreaterThan
+  nameWithType: Half.GreaterThan
+  fullName: System.Half.GreaterThan
+- uid: System.Half.op_GreaterThanOrEqual*
+  commentId: Overload:System.Half.op_GreaterThanOrEqual
+  name: GreaterThanOrEqual
+  nameWithType: Half.GreaterThanOrEqual
+  fullName: System.Half.GreaterThanOrEqual
+- uid: System.Half.op_Explicit*
+  commentId: Overload:System.Half.op_Explicit
+  name: Explicit
+  nameWithType: Half.Explicit
+  fullName: System.Half.Explicit
+  nameWithType.vb: Half.Narrowing
+  fullName.vb: System.Half.Narrowing
+  name.vb: Narrowing
+- uid: System.Half.op_Implicit*
+  commentId: Overload:System.Half.op_Implicit
+  name: Implicit
+  nameWithType: Half.Implicit
+  fullName: System.Half.Implicit
+  nameWithType.vb: Half.Widening
+  fullName.vb: System.Half.Widening
+  name.vb: Widening
+- uid: System.Half.op_Exponent*
+  commentId: Overload:System.Half.op_Exponent
+  name: op_Exponent
+  nameWithType: Half.op_Exponent
+  fullName: System.Half.op_Exponent
+- uid: System.Half.op_UnaryNegation*
+  commentId: Overload:System.Half.op_UnaryNegation
+  name: UnaryNegation
+  nameWithType: Half.UnaryNegation
+  fullName: System.Half.UnaryNegation
+- uid: System.Half.op_Subtraction*
+  commentId: Overload:System.Half.op_Subtraction
+  name: Subtraction
+  nameWithType: Half.Subtraction
+  fullName: System.Half.Subtraction
+- uid: System.Half.op_Decrement*
+  commentId: Overload:System.Half.op_Decrement
+  name: Decrement
+  nameWithType: Half.Decrement
+  fullName: System.Half.Decrement
+- uid: System.Half.op_Modulus*
+  commentId: Overload:System.Half.op_Modulus
+  name: Modulus
+  nameWithType: Half.Modulus
+  fullName: System.Half.Modulus
+- uid: System.Half.op_Multiply*
+  commentId: Overload:System.Half.op_Multiply
+  name: Multiply
+  nameWithType: Half.Multiply
+  fullName: System.Half.Multiply
+- uid: System.Half.op_Division*
+  commentId: Overload:System.Half.op_Division
+  name: Division
+  nameWithType: Half.Division
+  fullName: System.Half.Division
+- uid: System.Half.op_UnaryPlus*
+  commentId: Overload:System.Half.op_UnaryPlus
+  name: UnaryPlus
+  nameWithType: Half.UnaryPlus
+  fullName: System.Half.UnaryPlus
+- uid: System.Half.op_Addition*
+  commentId: Overload:System.Half.op_Addition
+  name: Addition
+  nameWithType: Half.Addition
+  fullName: System.Half.Addition
+- uid: System.Half.op_Increment*
+  commentId: Overload:System.Half.op_Increment
+  name: Increment
+  nameWithType: Half.Increment
+  fullName: System.Half.Increment
+- uid: System.Half.Epsilon*
+  commentId: Overload:System.Half.Epsilon
+  name: Epsilon
+  nameWithType: Half.Epsilon
+  fullName: System.Half.Epsilon
+- uid: System.Half.MaxValue*
+  commentId: Overload:System.Half.MaxValue
+  name: MaxValue
+  nameWithType: Half.MaxValue
+  fullName: System.Half.MaxValue
+- uid: System.Half.MinValue*
+  commentId: Overload:System.Half.MinValue
+  name: MinValue
+  nameWithType: Half.MinValue
+  fullName: System.Half.MinValue
+- uid: System.Half.NaN*
+  commentId: Overload:System.Half.NaN
+  name: NaN
+  nameWithType: Half.NaN
+  fullName: System.Half.NaN
+- uid: System.Half.NegativeInfinity*
+  commentId: Overload:System.Half.NegativeInfinity
+  name: NegativeInfinity
+  nameWithType: Half.NegativeInfinity
+  fullName: System.Half.NegativeInfinity
+- uid: System.Half.PositiveInfinity*
+  commentId: Overload:System.Half.PositiveInfinity
+  name: PositiveInfinity
+  nameWithType: Half.PositiveInfinity
+  fullName: System.Half.PositiveInfinity
+- uid: System.Half.SizeOf*
+  commentId: Overload:System.Half.SizeOf
+  name: SizeOf
+  nameWithType: Half.SizeOf
+  fullName: System.Half.SizeOf
+- uid: System.Half.GetBytes*
+  commentId: Overload:System.Half.GetBytes
+  name: GetBytes
+  nameWithType: Half.GetBytes
+  fullName: System.Half.GetBytes
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Half.IsFinite*
+  commentId: Overload:System.Half.IsFinite
+  name: IsFinite
+  nameWithType: Half.IsFinite
+  fullName: System.Half.IsFinite
+- uid: System.Half.IsInfinity*
+  commentId: Overload:System.Half.IsInfinity
+  name: IsInfinity
+  nameWithType: Half.IsInfinity
+  fullName: System.Half.IsInfinity
+- uid: System.Half.IsNaN*
+  commentId: Overload:System.Half.IsNaN
+  name: IsNaN
+  nameWithType: Half.IsNaN
+  fullName: System.Half.IsNaN
+- uid: System.Half.IsNegative*
+  commentId: Overload:System.Half.IsNegative
+  name: IsNegative
+  nameWithType: Half.IsNegative
+  fullName: System.Half.IsNegative
+- uid: System.Half.IsNegativeInfinity*
+  commentId: Overload:System.Half.IsNegativeInfinity
+  name: IsNegativeInfinity
+  nameWithType: Half.IsNegativeInfinity
+  fullName: System.Half.IsNegativeInfinity
+- uid: System.Half.IsNormal*
+  commentId: Overload:System.Half.IsNormal
+  name: IsNormal
+  nameWithType: Half.IsNormal
+  fullName: System.Half.IsNormal
+- uid: System.Half.IsPositiveInfinity*
+  commentId: Overload:System.Half.IsPositiveInfinity
+  name: IsPositiveInfinity
+  nameWithType: Half.IsPositiveInfinity
+  fullName: System.Half.IsPositiveInfinity
+- uid: System.Half.IsSubnormal*
+  commentId: Overload:System.Half.IsSubnormal
+  name: IsSubnormal
+  nameWithType: Half.IsSubnormal
+  fullName: System.Half.IsSubnormal
+- uid: System.ArgumentOutOfRangeException
+  commentId: T:System.ArgumentOutOfRangeException
+  isExternal: true
+- uid: System.Half.ToHalf*
+  commentId: Overload:System.Half.ToHalf
+  name: ToHalf
+  nameWithType: Half.ToHalf
+  fullName: System.Half.ToHalf
